@@ -26,6 +26,12 @@
 - Routing: React Router
 - State Management: Redux
 
+
+### Web Application Features
+- Account creation for businesses to streamline repeat transactions.
+- E-commerce storefront featuring selected name-brand tools, equipment, and accessories.
+- Database, storage, and API integration offering a wide range of online services and products.
+- Contact, tool rental, and tool repair forms for easy online shopping and service bookings.
 ### Links
 - Repository: [Hemet Valley Tools GitHub Page](https://github.com/cloudpc7/hemetvalleytools)
 - Live Demo: [Hemet Valley Tools](https://hemetvalleytools.web.app)
