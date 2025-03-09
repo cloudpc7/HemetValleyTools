@@ -3,23 +3,32 @@
 <img src="/src/assets/images/skull.png">
 
 ### About
-    <p>Hemet Valley Tools & Supply is your go-to destination for premium tool rentals, repairs, and sales in San Jacinto, CA. We offer an extensive range of high-quality construction and landscaping equipment, from heavy machinery to power tools, available for rent or purchase to suit both professional and DIY needs. Beyond rentals, our expert team provides top-notch repair services to keep your gear in peak condition.</p>
+- **Who**: Hemet Valley Tools & Supply, based in San Jacinto, CA.
+- **What**: Premium rentals and sales of construction and landscaping tools.
+- **Services**: Expert repairs to keep your equipment running smoothly.
+
+### Services Offered
+- Construction, & Landscaping  Equipment Rental
+- Tool Rentals
+- Tool Repair
+
 ### Contact
-    [Contact us at: 951-654-1034](tel:951-654-1034)
+[Call us at: 951-654-1034](tel:+19516541034)
 
 ### Address
-    777 W Esplanade Ave, San Jacinto, CA 92582
+777 W Esplanade Ave, San Jacinto, CA 92582
+
 ### Technologies
-    Frontend: HTML5, JavaScript, React
-    Backend:Firebase, Storage, Functions, Database, Hosting, Authentication
-    Styling: Sass, Bootstrap
-    Icons: Font Awesome
-    Routing: React Router
-    State Management: Redux
+- Frontend: HTML5, JavaScript, React
+- Backend: Firebase (Storage, Functions, Database, Hosting, Authentication)
+- Styling: Sass, Bootstrap
+- Icons: Font Awesome
+- Routing: React Router
+- State Management: Redux
+
 ### Links
-    Repository: ![Hemet Valley Tools Github Page](https://github.com/cloudpc7/hemetvalleytools)
-    Live Demo: ![Hemet Valley Tools](https://hemetvalleytools.web.app)
+- Repository: [Hemet Valley Tools GitHub Page](https://github.com/cloudpc7/hemetvalleytools)
+- Live Demo: [Hemet Valley Tools](https://hemetvalleytools.web.app)
 
 ### Contributing
-![clouddropdesigns](https://clouddropdesigns.com)
-
+[clouddropdesigns](https://clouddropdesigns.com)
