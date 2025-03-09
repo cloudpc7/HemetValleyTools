@@ -1,0 +1,11 @@
+@use "sass:color";
+
+$color-theme: (
+    app-black: #000000,
+    app-white: #ffffff,
+    app-grey: #333333
+);
+
+@function colorTheme($key) {
+    @return map-get($color-theme, $key);
+}

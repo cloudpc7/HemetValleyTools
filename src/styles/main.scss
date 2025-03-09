@@ -1,0 +1,36 @@
+@use "../styles/variables/colors.scss" as colors;
+@use "../styles/variables/fonts.scss" as fonts;
+@use "../styles//variables/styleUtil.scss" as utils;
+@use "./reset/reset.scss";
+
+body {
+  box-sizing: border-box;
+
+  p, .card-text {
+    @include fonts.font-theme(paragraph);
+  }
+
+  h1 {
+    @include fonts.font-theme(heading, h1);
+  }
+
+  h2 {
+    @include fonts.font-theme(heading, h2);
+  }
+
+  h3 {
+    @include fonts.font-theme(heading, h3);
+  }
+
+  h4 {
+    @include fonts.font-theme(heading, h4);
+  }
+
+  h5 {
+    @include fonts.font-theme(heading, h5);
+  }
+
+  h6 {
+    @include fonts.font-theme(heading, h6);
+  }
+}
