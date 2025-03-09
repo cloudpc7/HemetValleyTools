@@ -1,27 +1,23 @@
-<PROJECT_TITLE>
-Hemet Valley Tool & Supply Web Application
+# Project
+## Hemet Valley Tool & Supply Web Application
 <img src="/src/assets/images/skull.png">
 
-<PROJECT>
-Technologies
-    Frontend: <FRONTEND_LANGUAGES> (HTML5, JavaScript, React, Redux)
-    Backend: <BACKEND_LANGUAGES> (Firebase Storage, Functions, Database, Hosting, Authentication)
-    Styling: <STYLING_TOOLS> (Sass, Bootstrap)
-    Icons: <ICON_LIBRARY> (e.g., Font Awesome)
-    Routing: <ROUTING_LIBRARY> (e.g., React Router)
-    State Management: <STATE_MANAGEMENT> (e.g., Redux) optional
-    Build Tool: <BUILD_TOOL> (e.g., Webpack, Vite)
+### About
+    Hemet Valley Tools & Supply is your go-to destination for premium tool rentals, repairs, and sales in San Jacinto, CA. We offer an extensive range of high-quality construction and landscaping equipment, from heavy machinery to power tools, available for rent or purchase to suit both professional and DIY needs. Beyond rentals, our expert team provides top-notch repair services to keep your gear in peak condition. Visit us at 777 W Esplanade Ave, San Jacinto, CA 92582
+### Contact
+    (951-654-1034)
 
-Prerequisites
+### Technologies
+    Frontend: HTML5, JavaScript, React
+    Backend:Firebase, Storage, Functions, Database, Hosting, Authentication
+    Styling: Sass, Bootstrap
+    Icons: Font Awesome
+    Routing: React Router
+    State Management: Redux
+### Links
+    Repository: ![Hemet Valley Tools Github Page](https://github.com/cloudpc7/hemetvalleytools)
+    Live Demo: ![Hemet Valley Tools](https://hemetvalleytools.web.app)
 
-    <ENVIRONMENT_1>: <VERSION_1> (e.g., Node.js: v14+)
-    <ENVIRONMENT_2>: <VERSION_2> (e.g., npm: v6+)
-
-Links
-
-    Repository: [Hemet Valley Tools Github Page](https://github.com/cloudpc7/hemetvalleytools)
-    Live Demo: [Hemet Valley Tools](https://hemetvalleytools.web.app)
-
-Contributing
-[clouddropdesigns](https://clouddropdesigns.com)
+### Contributing
+![clouddropdesigns](https://clouddropdesigns.com)
 
