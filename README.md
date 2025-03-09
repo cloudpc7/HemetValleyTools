@@ -3,10 +3,12 @@
 <img src="/src/assets/images/skull.png">
 
 ### About
-    Hemet Valley Tools & Supply is your go-to destination for premium tool rentals, repairs, and sales in San Jacinto, CA. We offer an extensive range of high-quality construction and landscaping equipment, from heavy machinery to power tools, available for rent or purchase to suit both professional and DIY needs. Beyond rentals, our expert team provides top-notch repair services to keep your gear in peak condition. Visit us at 777 W Esplanade Ave, San Jacinto, CA 92582
+    <p>Hemet Valley Tools & Supply is your go-to destination for premium tool rentals, repairs, and sales in San Jacinto, CA. We offer an extensive range of high-quality construction and landscaping equipment, from heavy machinery to power tools, available for rent or purchase to suit both professional and DIY needs. Beyond rentals, our expert team provides top-notch repair services to keep your gear in peak condition.</p>
 ### Contact
-    (951-654-1034)
+    [Contact us at: 951-654-1034](tel:951-654-1034)
 
+### Address
+    777 W Esplanade Ave, San Jacinto, CA 92582
 ### Technologies
     Frontend: HTML5, JavaScript, React
     Backend:Firebase, Storage, Functions, Database, Hosting, Authentication
