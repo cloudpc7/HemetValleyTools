@@ -1,10 +1,16 @@
-@use "../styles/variables/colors.scss" as colors;
 @use "../styles/variables/fonts.scss" as fonts;
-@use "../styles//variables/styleUtil.scss" as utils;
-@use "./reset/reset.scss";
+@use "../styles//variables/styleUtil.scss" as util;
+// @use "./reset/reset.scss";
 
 body {
   box-sizing: border-box;
+  margin: 0; 
+
+  p, .card-text, 
+  h1, h2, h3, h4 { 
+    margin: util.global-gutter(default);
+    overflow: visible; 
+  }
 
   p, .card-text {
     @include fonts.font-theme(paragraph);
@@ -32,5 +38,13 @@ body {
 
   h6 {
     @include fonts.font-theme(heading, h6);
+  }
+
+  .container, .navbar {
+    padding: util.global-gutter(default);
+  }
+
+  .btn {
+    @include fonts.font-theme(button);
   }
 }

@@ -2,54 +2,85 @@
 @use "./fonts.scss" as fonts;
 
 $global-gutter-width: (
-    default: 0,
-    xs: 0.5rem,
-    sm: 1rem,
-    md: 1.5rem,
-    lg: 2rem,
-    xl: 3rem
+  default: 0,
+  xs: 0.5rem,
+  sm: 1rem,
+  md: 1.5rem,
+  lg: 2rem,
+  xl: 3rem
 );
 
 @function global-gutter($breakpoint) {
-    @return map-get($global-gutter-width, $breakpoint);
+  @return map-get($global-gutter-width, $breakpoint);
 }
 
 $display-settings: (
-    mobile: (
-        display: flex,
-        flex-direction: column,
-        align-items: center,
-        justify-content: center
-    ),
-    desktop: (
-        display: grid,
-        grid-template-columns: 1fr,
-        grid-template-rows: 1fr
-    )
+  mobile: (
+    display: flex,
+    flex-direction: column,
+    align-items: center,
+    justify-content: center
+  ),
+  desktop: (
+    display: grid,
+    grid-template-columns: 1fr,
+    grid-template-rows: 1fr
+  )
 );
 
 @function display-props($breakpoint) {
-    @return map-get($display-settings, $breakpoint);
+  @return map-get($display-settings, $breakpoint);
 }
 
+// Keep button-base as is (unused here)
 @mixin button-base($font, $bg-color, $color, $border, $radius, $border-color, $padding) {
+  background-color: $bg-color;
+  color: $color;
+  @include fonts.font-theme($font);
+  border: $border;
+  border-radius: $radius;
+  border-color: $border-color;
+  padding: $padding;
+  cursor: pointer;
+
+  &:hover {
     background-color: $bg-color;
     color: $color;
-    @include fonts.font-theme($font);  // Updated to use fonts namespace
-    border: $border;
-    border-radius: $radius;
-    border-color: $border-color;  // Added missing property
-    padding: $padding;  // Added missing property
-    cursor: pointer;
+  }
 
-    &:hover {
-        background-color: $bg-color;
-        color: $color;
-    }
+  &:active {
+  }
 
-    &:active {
-    }
+  &:focus {
+  }
+}
 
-    &:focus {
-    }
+// New mixin for repair button
+@mixin button-style-one {
+  border: 1px solid colors.colorTheme(app-black);
+  background-color: transparent;
+  color: colors.colorTheme(app-black);
+  padding: 0.5rem 2.25rem;
+  text-transform: uppercase;
+  border-radius: 6px;
+
+  &:hover {
+    background-color: colors.colorTheme(app-black);
+    color: colors.colorTheme(app-white);
+  }
+}
+
+// New mixin for rental button
+@mixin button-style-two {
+  border: 1px solid colors.colorTheme(app-white);
+  background-color: colors.colorTheme(app-black);
+  color: colors.colorTheme(app-white);
+  padding: 0.5rem 2.25rem;
+  text-transform: uppercase;
+  border-radius: 6px;
+  max-width: 10rem;
+  &:hover {
+    background-color: colors.colorTheme(app-white);
+    color: colors.colorTheme(app-black);
+  }
 }

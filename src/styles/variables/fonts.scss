@@ -1,13 +1,14 @@
 @use './colors.scss' as colors;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tenor+Sans&display=swap');
 
 $root-font-size: 16px;
 
-$headingFonts: 'Arial', serif;
-$paragraphFonts: 'Arial', serif;
+$headingFonts: 'Tenor Sans', serif;
+$paragraphFonts: 'Open Sans', serif;
 
 $paragraph-sizes: (
-  mobile: 0.875rem, 
-  desktop: 1rem,     
+  mobile: 0.875rem,
+  desktop: 1rem
 );
 
 $heading-sizes: (
@@ -37,6 +38,16 @@ $font-themes: (
     margin: 0,
     padding: 0,
     text-align: center
+  ),
+  button: (
+    font-family: $headingFonts, // Tenor Sans
+    color: colors.colorTheme(app-white),
+    letter-spacing: 0.05em,
+    line-height: 1.5,
+    margin: 0,
+    padding: 0,
+    text-align: center,
+    font-weight: 500
   )
 );
 
@@ -52,25 +63,27 @@ $font-themes: (
     text-align: map-get($theme, text-align);
 
     @if $theme-name == paragraph {
-      font-size: 0.9vw; // Approx 0.875rem at 320px, 1rem at 1200px
+      font-size: 0.9vw;
     } @else if $theme-name == heading and $heading-level {
       @if $heading-level != h1 {
         letter-spacing: 0.02em;
         line-height: 1.3;
       }
       @if $heading-level == h1 {
-        font-size: 2.5vw; // Approx 2rem at 320px, 4rem at 1200px
+        font-size: 2.5vw;
       } @else if $heading-level == h2 {
-        font-size: 1.8vw; // Approx 1.5rem at 320px, 2.8rem at 1200px
+        font-size: 1.8vw;
       } @else if $heading-level == h3 {
-        font-size: 1.7vw; // Approx 1.25rem at 320px, 2.8rem at 1200px
+        font-size: 1.7vw;
       } @else if $heading-level == h4 {
-        font-size: 1.6vw; // Approx 1.125rem at 320px, 2.8rem at 1200px
+        font-size: 1.6vw;
       } @else if $heading-level == h5 {
-        font-size: 1.5vw; // Approx 1rem at 320px, 2.8rem at 1200px
+        font-size: 1.5vw;
       } @else if $heading-level == h6 {
-        font-size: 1.4vw; // Approx 0.875rem at 320px, 2.8rem at 1200px
+        font-size: 1.4vw;
       }
+    } @else if $theme-name == button {
+      font-size: 1rem; // Consistent size for all buttons
     }
   } @else {
     @error "No font theme found for `#{$theme-name}`";
