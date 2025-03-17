@@ -1,0 +1,32 @@
+@use "../../variables/colors.scss" as colors;
+@use "../../variables/fonts.scss" as fonts;
+@use "../../variables/styleUtil.scss" as util;
+
+.repair-container {
+    .tool-cards {
+        .tool-repair-title {
+            color: colors.colorTheme(app-white);
+        }
+
+        .tool {
+            .tool-image {
+                max-width: 6rem;
+                justify-self: flex-end;
+            }
+
+            .tool-overlay {
+                .tool-body {
+                    .tool-title {
+                        font-size: 1.125rem;
+                    }
+
+                    .repair-btn {
+
+                    }
+                }
+            }
+        }
+        
+
+    }
+}

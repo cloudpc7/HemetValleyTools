@@ -3,20 +3,33 @@
 @use "../../variables/styleUtil.scss" as util;
 
 .navbar {
-    border-bottom: 6px solid colors.colorTheme(app-black);
-    .container {
+    background-color: colors.colorTheme(app-black);
+    .nav-container {
+        .nav-icon-section {
+            width: 100%;
+            align-items: center;
+            justify-content: space-between;
+            .skull-image {
+                max-width: 3.75rem;
+                max-height: 3.75rem;
+            }
+            
+            .fa-1x {
+                max-width: 2rem;
+                color: colors.colorTheme(app-white);
+            }
 
+            .navbar-toggler {
+                max-width: 4rem;
+                .navbar-toggler-icon {
+                    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+                }
+            }
+            
+        }
     }
 
     .row {
-
-        .image-container {
-            top: -3rem;
-            .skull-image {
-                
-            }
-        }
-
         .hero-title {
             max-width: 15rem;
             align-self: center;
@@ -32,8 +45,9 @@
     background-color: colors.colorTheme(app-black);
     .offcanvas-header {
         .business-title {
-            color: colors.colorTheme(app-white);
-            font-size: 1.25rem;
+            color: colors.colorTheme(app-white) !important;
+            font-size: 1.125rem;
+            max-width: 55%;
         }
 
         .btn-close {
@@ -48,35 +62,30 @@
         }
 
         .skull-icon {
-            max-width: 40px;
-            max-height: 40px;
+            max-width: 3.75rem;
+            max-height: 3.75rem;
         }
     }
 
     .offcanvas-body {
         .nav-link {
+            @include util.nav-links();
+        }
+
+        .search-input {
+            margin: 0.5rem 0;
+        }
+
+        .search-icon {
             color: colors.colorTheme(app-white);
-            padding: 0;
-            
-            &:hover {
-                text-decoration: underline;
-                text-underline-offset: 6px;
-                color: colors.colorTheme(app-white);
-            }
+        }
+
+        .search {
+            @include util.search();
         }
 
         .font-nav {
-            display: flex;
-            justify-content: center;
-            border-radius: 6px;
-            border: 1px solid colors.colorTheme(app-white);
-            padding: 1rem;
-            max-width: 5rem;
-
-            &:hover {
-                background-color: colors.colorTheme(app-white);
-                color: colors.colorTheme(app-black);
-            }
+           @include util.font-nav-links();
         }
 
         .rental-btn {

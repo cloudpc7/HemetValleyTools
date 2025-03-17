@@ -40,7 +40,7 @@ $font-themes: (
     text-align: center
   ),
   button: (
-    font-family: $headingFonts, // Tenor Sans
+    font-family: $headingFonts, 
     color: colors.colorTheme(app-white),
     letter-spacing: 0.05em,
     line-height: 1.5,
@@ -48,6 +48,13 @@ $font-themes: (
     padding: 0,
     text-align: center,
     font-weight: 500
+  ),
+  navlinks: (
+    font-family: $headingFonts,
+    color: colors.colorTheme(app-white),
+    letter-spacing: 0.05em,
+    line-height: 1.5,
+    font-weight: 500,
   )
 );
 

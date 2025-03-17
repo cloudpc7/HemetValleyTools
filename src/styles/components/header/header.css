@@ -11,13 +11,14 @@
 }
 .navbar .row .repair-btn {
   border: 1px solid #000000;
+  background-color: transparent;
   color: #000000;
   padding: 0.5rem 2.25rem;
   text-transform: uppercase;
   border-radius: 6px;
 }
 .navbar .row .repair-btn:hover {
-  background-color: #000000 !important;
+  background-color: #000000;
   color: #ffffff;
 }
 
@@ -42,12 +43,34 @@
   max-height: 40px;
 }
 .offcanvas .offcanvas-body .nav-link {
+  font-family: "Tenor Sans", serif;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
   color: #ffffff;
   padding: 0;
 }
 .offcanvas .offcanvas-body .nav-link:hover {
   text-decoration: underline;
   text-underline-offset: 6px;
+  color: #ffffff;
+}
+.offcanvas .offcanvas-body .search-icon {
+  color: #ffffff;
+}
+.offcanvas .offcanvas-body .search {
+  font-family: "Tenor Sans", serif;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
+  border: none;
+  border-radius: 0;
+  color: #ffffff;
+}
+.offcanvas .offcanvas-body .search::-moz-placeholder {
+  color: #ffffff;
+}
+.offcanvas .offcanvas-body .search::placeholder {
   color: #ffffff;
 }
 .offcanvas .offcanvas-body .font-nav {
@@ -72,6 +95,6 @@
   max-width: 10rem;
 }
 .offcanvas .offcanvas-body .rental-btn:hover {
-  background-color: #ffffff !important;
+  background-color: #ffffff;
   color: #000000;
 }/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,18 @@
+@use "../../variables/colors.scss" as colors;
+@use "../../variables/fonts.scss" as fonts;
+@use "../../variables/styleUtil.scss" as util;
+
+.hero-card {
+    .call-action {
+        .call-text {
+            font-family: "Tenor Sans", serif;
+            font-size: 1.75rem;
+            line-height: 100%;
+            word-wrap: break-word;
+        }
+
+        .call-btn {
+            @include util.button-style-one();
+        }
+    }
+}

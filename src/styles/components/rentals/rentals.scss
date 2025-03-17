@@ -1,0 +1,31 @@
+@use "../../variables/colors.scss" as colors;
+@use "../../variables/fonts.scss" as font;
+@use "../../variables/styleUtil.scss" as util;
+
+.rental-container {
+    .rental-cards {
+
+        .tool-rental-title {
+
+        }
+
+        .rental-card {
+            .tool-image {
+                max-width: 6rem;
+                justify-self: flex-end;
+            }
+            .tool-overlay {
+
+            }
+
+            .tool-body {
+                .tool-title {
+                    font-size: 1.125rem;
+                }
+                .rental-btn {
+
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "rentalEquipment": [
+        {
+            "id": 1,
+            "name": "Power Tools",
+            "description": "",
+            "link": "powertools",
+            "image":"/assets/images/PowerTools.png"
+        },
+        {
+            "id": 2,
+            "name": "Construction",
+            "description": "",
+            "link": "construction",
+            "image": "/assets/images/sunbelt.webp"
+        },
+        {
+            "id": 3,
+            "name": "Landscaping",
+            "description": "",
+            "link": "landscaping",
+            "image": "/assets/images/lawnmower.avif"
+        },
+        {
+            "id": 4,
+            "name": "Accessories",
+            "description": "",
+            "link": "accessories",
+            "image": "/assets/images/handbag.png"
+        }
+    ],
+    "toolRepair": [
+        {
+            "id": 1,
+            "name":"Power Tools",
+            "description": "",
+            "link": "powertools",
+            "image": "/assets/images/PowerTools.png"
+        },
+        {
+            "id": 2,
+            "name":"Construction Equipment",
+            "description": "",
+            "link": "construction",
+            "image": "/assets/images/sunbelt.webp"
+        },
+        {
+            "id": 3,
+            "name":"Landscaping Equipment",
+            "description": "",
+            "link": "landscape",
+            "image": "/assets/images/lawnmower.avif"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Drill Bit Set",
+            "brand": "DeWalt",
+            "specs": "20-piece, High-Speed Steel, 1/16in - 1/2in",
+            "price": 29.99,
+            "quantity": 15,
+            "availability": "In Stock",
+            "image": "/assets/images/gloves.png"
+          },
+          {
+            "id": 2,
+            "name": "Safety Goggles",
+            "brand": "3M",
+            "specs": "Anti-fog, UV Protection, Adjustable Strap",
+            "price": 12.50,
+            "quantity": 8,
+            "availability": "In Stock",
+            "image": "/assets/images/pencils.jpg"
+          }
+    ],
+    "powertools": [
+        {
+            "id": 1,
+            "name": "Drill Bit Set",
+            "brand": "DeWalt",
+            "specs": "20-piece, High-Speed Steel, 1/16in - 1/2in",
+            "price": 29.99,
+            "quantity": 15,
+            "availability": "In Stock",
+            "image": "/assets/images/gloves.png"
+          },
+          {
+            "id": 2,
+            "name": "Safety Goggles",
+            "brand": "3M",
+            "specs": "Anti-fog, UV Protection, Adjustable Strap",
+            "price": 12.50,
+            "quantity": 8,
+            "availability": "In Stock",
+            "image": "/assets/images/pencils.jpg"
+          }
+    ]
+}
