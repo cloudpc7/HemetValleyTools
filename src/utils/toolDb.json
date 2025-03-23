@@ -20,13 +20,6 @@
             "description": "",
             "link": "landscaping",
             "image": "/assets/images/lawnmower.avif"
-        },
-        {
-            "id": 4,
-            "name": "Accessories",
-            "description": "",
-            "link": "accessories",
-            "image": "/assets/images/handbag.png"
         }
     ],
     "toolRepair": [

@@ -2,6 +2,8 @@
 @use "../../variables/fonts.scss" as font;
 @use "../../variables/styleUtil.scss" as util;
 
-// .container {
-//     overflow:hidden;
-// }
+.container-fluid {
+    .col {
+        padding: 0;
+    }
+}

@@ -3,25 +3,32 @@
 @use "../../variables/styleUtil.scss" as util;
 
 .repair-container {
+    background-color: #808080;
+    border-bottom: 6px solid #333333;
     .tool-cards {
         .tool-repair-title {
+            font-size: 1.5rem;
+            text-transform: uppercase;
             color: colors.colorTheme(app-white);
         }
 
         .tool {
             .tool-image {
-                max-width: 6rem;
-                justify-self: flex-end;
+                width: 6rem;
+                height: 6rem;
             }
 
             .tool-overlay {
                 .tool-body {
                     .tool-title {
-                        font-size: 1.125rem;
+                        font-size: 1rem;
+                        font-weight: 400;
+                        letter-spacing: 0.1em;
                     }
 
                     .repair-btn {
-
+                        @include util.rental-repair();
+                        letter-spacing: 0.1em;
                     }
                 }
             }

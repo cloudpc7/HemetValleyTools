@@ -24,9 +24,24 @@ const ToolRepair = ({link, setLink}) => {
       };
 
     return (
-        <Container className="bg-black repair-container" fluid>
-            <Row className="tool-cards p-0 flex-column p-3 gap-4">
-                <h2 className="tool-repair-title h2 m-0 p-0">Tool & Equipment Repair</h2>
+        <Container className="
+            d-flex
+            w-100 
+            p-0
+            justify-content-center
+            align-items-center
+            repair-container
+        " 
+            fluid
+        >
+            <Row className="
+                w-100
+                p-3
+                gap-3
+                tool-cards
+                "
+            >
+                <h2 className="tool-repair-title p-2">Tool & Equipment Repair</h2>
                 {toolDB.toolRepair.map((tool) => {
                     
                     return (
@@ -35,43 +50,39 @@ const ToolRepair = ({link, setLink}) => {
                             role="button" 
                             key={tool.id} 
                             className="
-                                tool 
-                                flex-column 
-                                align-items-center
-                                rounded-3 
-                                border-1
                                 p-3
+                                align-items-center
+                                tool 
                             "
                             onMouseEnter={() => handleMouseEnter(tool.id)}
                             onMouseLeave={() => handleMouseLeave(tool.id)}
                         >
                         <Card.Img 
                             src={ `${tool.image}`} 
-                            className="tool-image border-0 rounded-0 mt-3" 
+                            className="
+                                tool-image
+                            " 
                             alt={tool.description}
                         />
                         <Card.ImgOverlay 
                             className="
-                                tool-overlay 
-                                d-flex 
-                                flex-column 
-                                w-100
                                 p-0
+                                tool-overlay 
                             "
                         >
                             <Card.Body 
                                 className="
-                                tool-body 
-                                d-flex 
-                                flex-column 
-                                align-items-center 
-                                justify-content-start 
-                                w-100 
-                                p-2
-                                gap-3"
+                                    d-flex
+                                    flex-column
+                                    align-items-center
+                                    justify-content-between
+                                    w-100
+                                    h-100
+                                    tool-body
+                                "
                             >
                                 <Card.Text 
-                                    className="tool-title h3"
+                                    className="tool-title"
                                 >
                                     {tool.name}
                                 </Card.Text>
@@ -83,17 +94,12 @@ const ToolRepair = ({link, setLink}) => {
                                                 onClick={() => handleNav(tool.id)}
                                                 to="/repairs"
                                                 className="
-                                                    d-flex }
-                                                    bg-black 
-                                                    border-0 
-                                                    justify-content-center 
-                                                    align-items-center 
-                                                    px-5 
-                                                    py-2 
-                                                    text-center 
+                                                    py-2
+                                                    px-3
+                                                    border-0
                                                     repair-btn"
                                             >
-                                                Request Repair
+                                                Repair
                                             </Button>
                                         </>
                                     )

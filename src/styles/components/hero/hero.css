@@ -1,0 +1,40 @@
+.hero-card {
+  background-color: #f5f5f5;
+  border-bottom: 4px solid #333333;
+  position: relative;
+  min-height: 18rem;
+}
+.hero-card .skull-image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.hero-card .call-action .call-text {
+  font-family: "Open Sans", serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #333333;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+.hero-card .call-action .call-btn {
+  background-color: #333333;
+  border: none;
+  color: #ffffff;
+  font-family: "Open Sans", serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0.75rem 2rem;
+  transition: background-color 0.3s ease;
+}
+.hero-card .call-action .call-btn:hover {
+  background-color: #FDFDFD;
+  color: #000000;
+  border: 1px solid #000000;
+}/*# sourceMappingURL=hero.css.map */

@@ -3,27 +3,33 @@
 @use "../../variables/styleUtil.scss" as util;
 
 .rental-container {
+    background-color: #D3D3D3;
+    border-bottom: 6px solid #333333;
     .rental-cards {
-
-        .tool-rental-title {
-
+        .rental-col {
+            .rental-title {
+                font-size: 1.5rem;
+                text-transform: uppercase;
+            }
         }
 
-        .rental-card {
-            .tool-image {
-                max-width: 6rem;
-                justify-self: flex-end;
-            }
-            .tool-overlay {
-
-            }
-
-            .tool-body {
-                .tool-title {
-                    font-size: 1.125rem;
+        .card-col {
+            .rental-card {
+                .tool-image {
+                    width: 6rem;
+                    height: 6rem;
                 }
-                .rental-btn {
+                .tool-overlay {
+                    .tool-body {
+                        .tool-title {
+                            font-size: 1rem;
+                            letter-spacing: 0.1em;
+                        }
 
+                        .rental-btn {
+                            @include util.rental-repair();
+                        }
+                    }
                 }
             }
         }

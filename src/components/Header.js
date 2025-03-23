@@ -6,7 +6,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import skullIcon from "../assets/images/hemetValleyIcon.png";
-import Search from "./Search";
+import Search from "../utils/Search";
 import "../styles/components/header/header.scss";
 
 library.add(fab, fas);
@@ -14,7 +14,7 @@ library.add(fab, fas);
 const Header = () => {
   const [showNav, setShowNav] = useState(false);
   return (
-    <Navbar expand="lg" className="flex-column p-2">
+    <Navbar expand="lg" className="flex-column p-3">
       <Container className="nav-container justify-content-center w-100">
         <Row className="nav-icon-section w-100 align-items-cneter justify-content-center">
           <Image className="p-0 skull-image" src={skullIcon} alt="skull and bones with hard hat"/>

@@ -29,7 +29,7 @@ const ToolList = () => {
     >
       <Row className="list-row flex-column p-0 w-100 ">
         <Col className="d-flex w-100 justify-content-center title-col">
-          <h3 className="tool-list-title">Power Tools</h3>
+          <h3 className="tool-list-title">Landscaping Equipment</h3>
         </Col>
         <Col className="w-100 p-0 filter">
           <FontAwesomeIcon

@@ -1,0 +1,10 @@
+@use "../variables/colors.scss" as colors;
+@use "../variables/fonts.scss" as font;
+@use "../variables/styleUtil.scss" as util;
+
+.search-input {
+    .search {
+        border: none;
+        border-bottom: 1px solid black;
+    }
+}

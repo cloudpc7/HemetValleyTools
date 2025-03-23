@@ -1,9 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tenor+Sans&display=swap");
 .navbar {
-  border-bottom: 6px solid #000000;
+  background-color: #000000;
 }
-.navbar .row .image-container {
-  top: -3rem;
+.navbar .nav-container .nav-icon-section {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .nav-container .nav-icon-section .skull-image {
+  max-width: 3.75rem;
+  max-height: 3.75rem;
+}
+.navbar .nav-container .nav-icon-section .fa-1x {
+  max-width: 2rem;
+  color: #ffffff;
+}
+.navbar .nav-container .nav-icon-section .navbar-toggler {
+  max-width: 4rem;
+}
+.navbar .nav-container .nav-icon-section .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 .navbar .row .hero-title {
   max-width: 15rem;
@@ -11,11 +27,14 @@
 }
 .navbar .row .repair-btn {
   border: 1px solid #000000;
+  font-weight: 500;
   background-color: transparent;
   color: #000000;
-  padding: 0.5rem 2.25rem;
+  padding: 0.5rem 1rem;
   text-transform: uppercase;
-  border-radius: 6px;
+  text-align: center;
+  border-radius: 0.5rem;
+  max-width: 12rem;
 }
 .navbar .row .repair-btn:hover {
   background-color: #000000;
@@ -26,8 +45,9 @@
   background-color: #000000;
 }
 .offcanvas .offcanvas-header .business-title {
-  color: #ffffff;
-  font-size: 1.25rem;
+  color: #ffffff !important;
+  font-size: 1.125rem;
+  max-width: 55%;
 }
 .offcanvas .offcanvas-header .btn-close {
   border-radius: 0;
@@ -39,8 +59,8 @@
   background-color: #333333;
 }
 .offcanvas .offcanvas-header .skull-icon {
-  max-width: 40px;
-  max-height: 40px;
+  max-width: 3.75rem;
+  max-height: 3.75rem;
 }
 .offcanvas .offcanvas-body .nav-link {
   font-family: "Tenor Sans", serif;
@@ -55,28 +75,41 @@
   text-underline-offset: 6px;
   color: #ffffff;
 }
+.offcanvas .offcanvas-body .search-input {
+  margin: 0.5rem 0;
+}
 .offcanvas .offcanvas-body .search-icon {
   color: #ffffff;
 }
 .offcanvas .offcanvas-body .search {
+  max-width: 10rem;
   font-family: "Tenor Sans", serif;
   color: #ffffff;
   letter-spacing: 0.05em;
   line-height: 1.5;
   border: none;
+  border-bottom: 1px solid #ffffff;
   border-radius: 0;
   color: #ffffff;
 }
 .offcanvas .offcanvas-body .search::-moz-placeholder {
   color: #ffffff;
+  opacity: 65%;
 }
 .offcanvas .offcanvas-body .search::placeholder {
   color: #ffffff;
+  opacity: 65%;
+}
+.offcanvas .offcanvas-body .search:focus, .offcanvas .offcanvas-body .search:active {
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  outline: none;
+  box-shadow: none;
 }
 .offcanvas .offcanvas-body .font-nav {
   display: flex;
   justify-content: center;
-  border-radius: 6px;
+  border-radius: 0.5rem;
   border: 1px solid #ffffff;
   padding: 1rem;
   max-width: 5rem;
@@ -91,7 +124,7 @@
   color: #ffffff;
   padding: 0.5rem 2.25rem;
   text-transform: uppercase;
-  border-radius: 6px;
+  border-radius: 0.5rem;
   max-width: 10rem;
 }
 .offcanvas .offcanvas-body .rental-btn:hover {

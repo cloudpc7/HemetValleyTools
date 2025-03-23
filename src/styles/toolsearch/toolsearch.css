@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tenor+Sans&display=swap");
-.container-fluid .col {
-  padding: 0;
-}/*# sourceMappingURL=home.css.map */
+.search-input .search {
+  border: none;
+  border-bottom: 1px solid black;
+}/*# sourceMappingURL=toolsearch.css.map */

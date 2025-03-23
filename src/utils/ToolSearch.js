@@ -4,11 +4,11 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import "../styles/components/header/header.scss";
+import "../styles/toolsearch/toolsearch.scss";
 
 library.add(fab, fas);
 
-const Search = () => {
+const ToolSearch = () => {
   const handleChange = (event, formikHandleChange) => {
     formikHandleChange(event);
     console.log("Search term:", event.target.value); 
@@ -22,7 +22,7 @@ const Search = () => {
      
     >
       {({ values, handleChange: formikHandleChange, handleBlur }) => (
-        <Form noValidate className="search-input d-flex align-items-center">
+        <Form noValidate className="d-flex align-items-center p-3 search-input">
           <FontAwesomeIcon icon={['fas', 'magnifying-glass']} size="1x" className="search-icon me-2" />
           <Form.Control
             type="text"
@@ -31,7 +31,10 @@ const Search = () => {
             value={values.searchTerm}
             onChange={(event) => handleChange(event, formikHandleChange)}
             onBlur={handleBlur}
-            className="search b-0 bg-transparent"
+            className="
+              rounded-0
+              search 
+            "
           />
         </Form>
       )}
@@ -39,4 +42,4 @@ const Search = () => {
   );
 };
 
-export default Search;
+export default ToolSearch;

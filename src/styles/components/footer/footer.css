@@ -1,1 +1,63 @@
-/*# sourceMappingURL=footer.css.map */
+.footer {
+  background-color: #333333;
+}
+.footer .skull-image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.25;
+}
+.footer .footer-row {
+  background-color: rgba(51, 51, 51, 0.9);
+}
+.footer .footer-row .footer-subtitle {
+  color: #D3D3D3;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.footer .footer-row a {
+  font-family: "Open Sans", serif;
+  font-size: 0.875rem;
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer .footer-row a:hover {
+  color: #000000;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-color: #FDFDFD;
+}
+.footer .footer-row .explore-list .explore, .footer .footer-row .explore-list .legal, .footer .footer-row .legal-list .explore, .footer .footer-row .legal-list .legal {
+  padding: 0;
+}
+.footer .footer-row .social-links .social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+.footer .footer-row .social-links .social .footer-subtitle {
+  width: 100%;
+  text-align: center;
+}
+.footer .footer-row .location .address {
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+.footer .footer-row .location .physical-location {
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+.footer .footer-row .location .phone {
+  font-size: 0.875rem;
+  color: #ffffff;
+}
+.footer .footer-row .copyright .developer {
+  font-size: 1rem;
+  color: #D3D3D3;
+}
+.footer .footer-row .copyright .listing {
+  font-size: 0.75rem;
+  color: #ffffff;
+}/*# sourceMappingURL=footer.css.map */

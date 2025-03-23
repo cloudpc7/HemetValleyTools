@@ -1,0 +1,83 @@
+@use "../../variables/colors.scss" as colors;
+
+.footer {
+  background-color: #333333;
+
+  .skull-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    opacity: 0.25;
+  }
+
+  .footer-row {
+    background-color: rgba(51, 51, 51, 0.9); // Slightly transparent for depth
+
+    .footer-subtitle {
+      color: #D3D3D3;
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+
+    a {
+      font-family: "Open Sans", serif;
+      font-size: 0.875rem;
+      text-decoration: none;
+      color: #ffffff;
+
+      &:hover {
+        color: #000000;
+        text-decoration: underline;
+        text-underline-offset: 6px;
+        text-decoration-color: #FDFDFD;
+      }
+    }
+
+    .explore-list, .legal-list {
+      .explore, .legal {
+        padding: 0;
+      }
+    }
+
+    .social-links {
+      .social {
+        display: flex;
+        flex-wrap: wrap; // Wraps icons if too many
+        justify-content: center;
+        padding: 0;
+
+        .footer-subtitle {
+          width: 100%; // Ensures title spans full width
+          text-align: center;
+        }
+      }
+    }
+
+    .location {
+      .address {
+        font-size: 1.25rem;
+        color: #ffffff;
+      }
+      .physical-location {
+        font-size: 1.25rem;
+        color: #ffffff;
+      }
+      .phone {
+        font-size: 0.875rem;
+        color: #ffffff;
+      }
+    }
+
+    .copyright {
+      .developer {
+        font-size: 1rem;
+        color: #D3D3D3;
+      }
+
+      .listing {
+        font-size: 0.75rem;
+        color: #ffffff;
+      }
+    }
+  }
+}

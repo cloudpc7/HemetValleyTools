@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import { Container,Row, Button, Card} from "react-bootstrap";
+import { Container,Row, Col, Button, Card} from "react-bootstrap";
 import "../styles/components/rentals/rentals.scss";
 import { Link } from "react-router";
 import toolDB from "../utils/toolDb.json";
@@ -24,85 +24,86 @@ const ToolRentals = ({link, setLink}) => {
       };
 
     return (
-        <Container className="rental-container" fluid>
-            <Row className="rental-cards p-0 flex-column p-3 gap-4">
-                <h2 className="tool-rental-title h2 m-0 p-0">Tool Rental</h2>
-                {toolDB.rentalEquipment.map((rentals) => {
-                    
-                    return (
-                        rentals &&
-                        <Card
-                            role="button" 
-                            key={rentals.id} 
-                            className="
-                                rental-card 
-                                flex-column 
-                                align-items-center
-                                rounded-3 
-                                border-1
-                                p-3
-                            "
-                            onMouseEnter={() => handleMouseEnter(rentals.id)}
-                            onMouseLeave={() => handleMouseLeave(rentals.id)}
-                        >
-                        <Card.Img 
-                            src={ `${rentals.image}`} 
-                            className="tool-image border-0 rounded-0 mt-3" 
-                            alt="power tools"
-                        />
-                        <Card.ImgOverlay 
-                            className="
-                                tool-overlay 
-                                d-flex 
-                                flex-column 
-                                w-100
-                                p-0
-                            "
-                        >
-                            <Card.Body 
+        <Container fluid className="d-flex justify-content-center w-100 p-0 rental-container">
+            <Row className="
+                flex-column
+                w-100
+                rental-cards
+            "
+            >
+                <Col className="rental-col">
+                    <h2 className="p-3 rental-title">Tool Rental</h2>
+                </Col>
+                <Col className="d-flex gap-3 flex-column p-3 card-col">  
+                    {toolDB.rentalEquipment.map((rentals) => {
+                        
+                        return (
+                            rentals &&
+                            <Card
+                                role="button" 
+                                key={rentals.id} 
                                 className="
-                                tool-body 
-                                d-flex 
-                                flex-column 
-                                align-items-center 
-                                justify-content-start 
-                                w-100 
-                                p-2
-                                gap-3"
+                                    justify-content-center
+                                    align-items-center
+                                    p-3
+                                    rental-card 
+                                "
+                                onMouseEnter={() => handleMouseEnter(rentals.id)}
+                                onMouseLeave={() => handleMouseLeave(rentals.id)}
                             >
-                                <Card.Text 
-                                    className="tool-title h3"
+                            <Card.Img 
+                                src={ `${rentals.image}`} 
+                                className="tool-image" 
+                                alt="power tools"
+                            />
+                            <Card.ImgOverlay 
+                                className="
+                                    p-0
+                                    tool-overlay 
+                                "
+                            >
+                                <Card.Body 
+                                    className="
+                                    d-flex
+                                    flex-column
+                                    align-items-center 
+                                    justify-content-between
+                                    w-100
+                                    h-100
+                                    p-2
+                                    tool-body 
+                                    "
                                 >
-                                    {rentals.name}
-                                </Card.Text>
-                                {
-                                    hoverState[rentals.id] && (
-                                        <>
-                                            <Button 
-                                                as={Link} 
-                                                onClick={() => handleNav(rentals.id)}
-                                                to="/rentals"
-                                                className="
-                                                    d-flex }
-                                                    bg-black 
-                                                    border-0 
-                                                    justify-content-center 
-                                                    align-items-center 
-                                                    px-5 
-                                                    py-2 
-                                                    text-center 
-                                                    rental-btn"
-                                            >
-                                                Rent
-                                            </Button>
-                                        </>
-                                    )
-                                }
-                            </Card.Body>
-                        </Card.ImgOverlay>
-                    </Card>
-                    )
-                })}
+                                    <Card.Text 
+                                        className="tool-title"
+                                    >
+                                        {rentals.name}
+                                    </Card.Text>
+                                    {
+                                        hoverState[rentals.id] && (
+                                            <>
+                                                <Button 
+                                                    as={Link} 
+                                                    onClick={() => handleNav(rentals.id)}
+                                                    to="/rentals"
+                                                    className="
+                                                        py-2
+                                                        px-5
+                                                        border-0
+                                                        rental-btn
+                                                    "
+                                                >
+                                                    Rent
+                                                </Button>
+                                            </>
+                                        )
+                                    }
+                                </Card.Body>
+                            </Card.ImgOverlay>
+                        </Card>
+                        )
+                    })}
+                </Col>
             </Row>
         </Container>
     );

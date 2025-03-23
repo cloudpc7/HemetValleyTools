@@ -58,6 +58,7 @@ $display-settings: (
 // New mixin for repair button
 @mixin button-style-one {
   border: 1px solid colors.colorTheme(app-black);
+  font-weight: 500;
   background-color: transparent;
   color: colors.colorTheme(app-black);
   padding: 0.5rem 1rem;
@@ -128,4 +129,12 @@ $display-settings: (
     outline: none;
     box-shadow: none; 
   }
+}
+
+@mixin rental-repair {
+  background-color: #000000;
+  font-family: "Tenor Sans", sans;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
 }

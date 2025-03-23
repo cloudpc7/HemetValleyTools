@@ -1,0 +1,23 @@
+@use "../../variables/colors.scss" as colors;
+@use "../../variables/fonts.scss" as fonts;
+@use "../../variables/styleUtil.scss" as util;
+
+
+.shop-container {
+    background-color: #FDFDFD;
+    border-bottom: 6px solid #333333;
+
+    
+
+    .shop {
+        .shop-col {
+            .shop-title {
+                font-size: 1.5rem;
+            }
+        }
+        .shop-section {
+
+        }
+    }
+
+}

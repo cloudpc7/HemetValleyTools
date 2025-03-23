@@ -1,1 +1,58 @@
-/*# sourceMappingURL=accessory.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tenor+Sans&display=swap");
+.list-container .list-row .title-col .tool-list-title {
+  font-family: "Tenor Sans", serif;
+  color: #000000;
+  letter-spacing: -0.015em;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  letter-spacing: 0.02em;
+  line-height: 1.3;
+  font-size: 1.6vw;
+  font-size: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+.list-container .list-row .tool-col .tool-card .tool-name {
+  font-family: "Open Sans", serif;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 0.9vw;
+  font-size: 1.125rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+.list-container .list-row .tool-col .tool-card .tool-image {
+  width: 6rem;
+  height: 6rem;
+}
+.list-container .list-row .tool-col .tool-card .tool-body .spec {
+  font-family: "Open Sans", serif;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 0.9vw;
+  font-size: 0.675rem;
+  letter-spacing: 0.1em;
+}
+.list-container .list-row .tool-col .tool-card .tool-body .tool-btn {
+  border: 1px solid #ffffff;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0.5rem 2.25rem;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+  max-width: 10rem;
+}
+.list-container .list-row .tool-col .tool-card .tool-body .tool-btn:hover {
+  background-color: #ffffff;
+  color: #000000;
+}/*# sourceMappingURL=accessory.css.map */
