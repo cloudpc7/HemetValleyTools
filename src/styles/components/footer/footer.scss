@@ -6,22 +6,21 @@
   .skull-image {
     width: 100%;
     height: 100%;
-    object-fit: cover; 
+    object-fit: cover;
     opacity: 0.25;
   }
 
   .footer-row {
-    background-color: rgba(51, 51, 51, 0.9); // Slightly transparent for depth
-
+    background-color: rgba(51, 51, 51, 0.9);
     .footer-subtitle {
-      color: #D3D3D3;
-      font-size: 1.25rem;
-      margin-bottom: 0.5rem;
+      color: #d3d3d3;
+      font-size: 1.75rem;
+      margin-bottom: 0.75rem;
     }
 
     a {
       font-family: "Open Sans", serif;
-      font-size: 0.875rem;
+      font-size: 1.125rem;
       text-decoration: none;
       color: #ffffff;
 
@@ -29,12 +28,14 @@
         color: #000000;
         text-decoration: underline;
         text-underline-offset: 6px;
-        text-decoration-color: #FDFDFD;
+        text-decoration-color: #fdfdfd;
       }
     }
 
-    .explore-list, .legal-list {
-      .explore, .legal {
+    .explore-list,
+    .legal-list {
+      .explore,
+      .legal {
         padding: 0;
       }
     }
@@ -42,12 +43,12 @@
     .social-links {
       .social {
         display: flex;
-        flex-wrap: wrap; // Wraps icons if too many
+        flex-wrap: wrap;
         justify-content: center;
         padding: 0;
 
         .footer-subtitle {
-          width: 100%; // Ensures title spans full width
+          width: 100%;
           text-align: center;
         }
       }
@@ -55,28 +56,66 @@
 
     .location {
       .address {
-        font-size: 1.25rem;
+        margin-bottom: 0.75rem;
+        font-size: 1.75rem; 
         color: #ffffff;
       }
       .physical-location {
-        font-size: 1.25rem;
+        font-size: 1rem;
         color: #ffffff;
       }
       .phone {
-        font-size: 0.875rem;
+        font-size: 1rem;
         color: #ffffff;
       }
     }
 
     .copyright {
       .developer {
-        font-size: 1rem;
-        color: #D3D3D3;
+        font-size: 1.25rem; 
+        color: #d3d3d3;
+      }
+      .listing {
+        font-size: 1rem; 
+        color: #ffffff;
+      }
+    }
+
+    
+    @media (min-width: 48rem) {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); 
+      grid-template-rows: auto auto;
+      gap: 1.5rem; 
+      padding: 2rem 3rem; 
+
+      .explore-list {
+        grid-column: 1 / 2; 
+        grid-row: 1 / 2; 
       }
 
-      .listing {
-        font-size: 0.75rem;
-        color: #ffffff;
+      .social-links {
+        grid-column: 2 / 3; 
+        grid-row: 1 / 2; 
+      }
+
+      .legal-list {
+        grid-column: 3 / 4; 
+        grid-row: 1 / 2; 
+      }
+
+      .location {
+        grid-column: 4 / 5; 
+        grid-row: 1 / 2;
+      }
+
+      .copyright {
+        grid-column: 1 / 5;
+        grid-row: 2 / 3; 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 1rem;
       }
     }
   }

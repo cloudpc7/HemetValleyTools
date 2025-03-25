@@ -1,5 +1,5 @@
 import { Container, Row, Col, Image, ListGroup } from "react-bootstrap";
-import { Link } from "react-router-dom"; // Fixed import
+import { Link } from "react-router-dom";
 import "../styles/components/footer/footer.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -21,7 +21,7 @@ const Footer = () => {
         src={skullImage}
         alt="skull and bones with hard hat"
       />
-      <Row className="footer-row w-100 p-2 z-1">
+      <Row className="footer-row w-100 p-3 z-1">
         <Col xs={12} className="explore-list mb-3">
           <ListGroup className="explore text-center">
             <h3 className="footer-subtitle">Explore</h3>
@@ -40,13 +40,13 @@ const Footer = () => {
               <FontAwesomeIcon icon={faEnvelope} size="lg" />
             </ListGroup.Item>
             <ListGroup.Item as={Link} className="border-0 bg-transparent p-0">
-              <FontAwesomeIcon icon={["fab", "twitter"]} size="lg" />
+              <FontAwesomeIcon icon={["fab", "facebook"]} size="lg" />
+            </ListGroup.Item>
+            <ListGroup.Item as={Link} className="border-0 bg-transparent p-0">
+              <FontAwesomeIcon icon={["fab", "x-twitter"]} size="lg" />
             </ListGroup.Item>
             <ListGroup.Item as={Link} className="border-0 bg-transparent p-0">
               <FontAwesomeIcon icon={["fab", "instagram"]} size="lg" />
-            </ListGroup.Item>
-            <ListGroup.Item as={Link} className="border-0 bg-transparent p-0">
-              <FontAwesomeIcon icon={["fab", "facebook"]} size="lg" />
             </ListGroup.Item>
           </ListGroup>
         </Col>
@@ -62,7 +62,7 @@ const Footer = () => {
         </Col>
         <Col xs={12} className="d-flex flex-column gap-2 location mb-3 text-center">
           <h3 className="address">Location</h3>
-          <p className="physical-location m-0">777 W Esplanade Ave <br/> San Jacinto, CA 92582</p>
+          <p className="physical-location m-0">777 W Esplanade Ave <br /> San Jacinto, CA 92582</p>
           <p className="phone m-0">(951) 654-1034</p>
         </Col>
         <Col xs={12} className="copyright text-center">

@@ -1,37 +1,106 @@
-@use "../../variables/colors.scss" as colors;
-@use "../../variables/fonts.scss" as font;
-@use "../../variables/styleUtil.scss" as util;
-
 .rental-container {
-    background-color: #D3D3D3;
-    border-bottom: 6px solid #333333;
-    .rental-cards {
-        .rental-col {
-            .rental-title {
-                font-size: 1.5rem;
-                text-transform: uppercase;
-            }
-        }
-
-        .card-col {
-            .rental-card {
-                .tool-image {
-                    width: 6rem;
-                    height: 6rem;
-                }
-                .tool-overlay {
-                    .tool-body {
-                        .tool-title {
-                            font-size: 1rem;
-                            letter-spacing: 0.1em;
-                        }
-
-                        .rental-btn {
-                            @include util.rental-repair();
-                        }
-                    }
-                }
-            }
-        }
+  background-color: #d3d3d3;
+  border-bottom: 6px solid #333333;
+  // MAR20WE
+  .rental-cards {
+    .rental-col {
+      .rental-title {
+        font-family: "Tenor Sans", serif;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #000000;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
     }
+
+    .card-col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      .rental-card {
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff;
+        border-radius: 0.5rem;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        transition: box-shadow 0.2s ease;
+        &:hover {
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .tool-image {
+          width: 6rem;
+          height: 6rem;
+          padding: 1rem 0;
+        }
+
+        .tool-body {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 1rem;
+          .tool-title {
+            font-family: "Open Sans", sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            color: #333333;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+          }
+
+          .rental-btn {
+            background-color: #000000;
+            border: none;
+            color: #ffffff;
+            font-family: "Open Sans", sans-serif;
+            font-size: 0.875rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            opacity: 0; 
+            transition: opacity 0.2s ease; 
+
+            &.visible {
+              opacity: 1;
+            }
+
+            &:hover {
+              background-color: #4a4a4a;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+
+ 
+  @media (min-width: 48rem) {
+    .rental-cards {
+      .card-col {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        gap: 1.5rem;
+
+        .rental-card {
+          .tool-body {
+            min-height: 12rem;
+
+            .tool-title {
+              font-size: 1.125rem;
+            }
+
+            .rental-btn {
+              font-size: 1rem;
+              padding: 1rem 2rem;
+            }
+          }
+        }
+      }
+    }
+  }
 }

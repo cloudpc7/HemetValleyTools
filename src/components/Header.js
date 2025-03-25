@@ -14,15 +14,15 @@ library.add(fab, fas);
 const Header = () => {
   const [showNav, setShowNav] = useState(false);
   return (
-    <Navbar expand="lg" className="flex-column p-3">
+    <Navbar expand="lg" className="p-3">
       <Container className="nav-container justify-content-center w-100">
         <Row className="nav-icon-section w-100 align-items-cneter justify-content-center">
           <Image className="p-0 skull-image" src={skullIcon} alt="skull and bones with hard hat"/>
-          <FontAwesomeIcon className="p-0 ms-auto" icon={['fas', 'cart-shopping']} size="1x" />   
+          <FontAwesomeIcon className="cart p-0 ms-auto" icon={['fas', 'cart-shopping']} size="2x" />   
           <Navbar.Toggle
             onClick={() => setShowNav(true)}
             aria-controls="offcanvasNavbar-expand-lg"
-            className="w-100 p-0"
+            className="p-0 ms-3"
           />
         </Row>
         <Navbar.Offcanvas
@@ -38,13 +38,10 @@ const Header = () => {
             <Offcanvas.Title className="business-title ms-auto ps-3">Hemet Valley Tools & Supply</Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
-            <Nav className="flex-column gap-3">
+            <Nav className="gap-3">
                 <Button as={Link} to="/rental" className="rental-btn">Rentals</Button>
                 <Nav.Link as={Link} to="/account">
                     SignUp/Login
-                </Nav.Link>
-                <Nav.Link as={Link} to="/repair">
-                    Tool Repair
                 </Nav.Link>
                 <Nav.Link as={Link} to="/shop">
                     Power Tools
@@ -53,7 +50,7 @@ const Header = () => {
               <Nav.Link className="font-nav" href="tel:+19516541034">
                 <FontAwesomeIcon icon={['fas', 'phone']} size="2x" /> 
               </Nav.Link>
-              <Nav.Link className="font-nav" href="https://goo.gl/maps/your-location" target="_blank" rel="noopener noreferrer">
+              <Nav.Link className="font-nav" href="https://google/maps/your-location" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={['fas', 'map-marker-alt']} size="2x" /> 
               </Nav.Link>
               <Nav.Link className="font-nav" href="https://facebook.com/yourpage" target="_blank" rel="noopener noreferrer">

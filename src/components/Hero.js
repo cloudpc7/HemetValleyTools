@@ -1,24 +1,19 @@
-import { Card, Button } from "react-bootstrap";
-import skullImage from "../assets/images/skull.png";
+import { Container, Button } from "react-bootstrap";
 import "../styles/components/hero/hero.scss";
+import { Link } from "react-router";
 
 const Hero = () => {
   return (
-    <Card className="hero-card rounded-0 border-0">
-      <Card.Img
-        className="skull-image opacity-50 z-0"
-        src={skullImage}
-        alt="skull and bones with hard hat"
-      />
-        <Card.Body className="d-flex flex-column align-items-center justify-content-between w-100 h-100 call-action z-1">
-          <Card.Text className="call-text h1">
-            #1 Rated <br />Tool & Supply
-          </Card.Text>
-          <Button as="a" href="/repair" className="call-btn">
-            Tool Repair
-          </Button>
-        </Card.Body>
-    </Card>
+    <Container fluid className="hero-card">
+      <div className="call-action">
+        <h1 className="call-text">
+          #1 Rated <br />Tool & Supply Shop
+        </h1>
+        <Button as={Link} href="/repair" className="btn call-btn">
+          Tool Repair
+        </Button>
+      </div>
+    </Container>
   );
 };
 

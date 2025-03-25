@@ -32,7 +32,6 @@ $display-settings: (
   @return map-get($display-settings, $breakpoint);
 }
 
-// Keep button-base as is (unused here)
 @mixin button-base($font, $bg-color, $color, $border, $radius, $border-color, $padding) {
   background-color: $bg-color;
   color: $color;
@@ -55,7 +54,6 @@ $display-settings: (
   }
 }
 
-// New mixin for repair button
 @mixin button-style-one {
   border: 1px solid colors.colorTheme(app-black);
   font-weight: 500;
@@ -72,8 +70,11 @@ $display-settings: (
   }
 }
 
-// New mixin for rental button
+
 @mixin button-style-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid colors.colorTheme(app-white);
   background-color: colors.colorTheme(app-black);
   color: colors.colorTheme(app-white);
@@ -88,15 +89,14 @@ $display-settings: (
 }
 
 @mixin font-nav-links {
-  display: flex;
-  justify-content: center;
   border-radius: 0.5rem;
-  border: 1px solid colors.colorTheme(app-white);
-  padding: 1rem;
   max-width: 5rem;
+  @media (min-width: 62rem) {
+    display: flex;
+    justify-content: center;
+  }
   &:hover {
-    background-color: colors.colorTheme(app-white);
-    color: colors.colorTheme(app-black);
+    color: #4a4a4a;
   }
 }
 
@@ -107,7 +107,8 @@ $display-settings: (
   &:hover {
     text-decoration: underline;
     text-underline-offset: 6px;
-    color: colors.colorTheme(app-white);
+    color: #4a4a4a;
+    text-decoration-color: #ffffff;
   }
 }
 

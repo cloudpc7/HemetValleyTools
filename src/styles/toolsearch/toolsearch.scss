@@ -1,10 +1,43 @@
 @use "../variables/colors.scss" as colors;
-@use "../variables/fonts.scss" as font;
-@use "../variables/styleUtil.scss" as util;
 
 .search-input {
-    .search {
-        border: none;
-        border-bottom: 1px solid black;
+  .search-icon {
+    color: #f4f4f4;
+  }
+  .search {
+    border: 1px solid #4a4a4a;
+    border-radius: 0.5rem;
+    font-family: "Open Sans", sans-serif;
+    max-width: 16rem;
+    font-size: 0.875rem;
+    color: #333333;
+    padding: 0.25rem 0;
+    &:focus {
+      outline: none;
+      border-bottom: 2px solid #333333;
+      box-shadow: none;
     }
+
+    &::placeholder {
+      margin-left: 2rem;
+    }
+
+    @media (min-width: 48rem) {
+      max-width: 24rem;
+    }
+
+    @media (min-width: 75rem) {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+}
+
+@media (min-width: 75rem) {
+  .search-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+  }
 }

@@ -22,7 +22,7 @@ const Search = () => {
     >
       {({ values, handleChange: formikHandleChange, handleBlur }) => (
         <Form noValidate className="search-input d-flex align-items-center">
-          <FontAwesomeIcon icon={['fas', 'magnifying-glass']} size="1x" className="search-icon me-2" />
+          <FontAwesomeIcon icon={['fas', 'magnifying-glass']} size="2x" className="search-icon me-3" />
           <Form.Control
             type="text"
             name="searchTerm"
@@ -37,7 +37,6 @@ const Search = () => {
               border-end-0
               rounded-0
               bg-transparent
-              mb-3
             "
           />
         </Form>

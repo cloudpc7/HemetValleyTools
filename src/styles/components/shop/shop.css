@@ -1,8 +1,76 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tenor+Sans&display=swap");
 .shop-container {
-  background-color: #FDFDFD;
+  background-color: #000000;
   border-bottom: 6px solid #333333;
 }
 .shop-container .shop .shop-col .shop-title {
+  font-family: "Tenor Sans", serif;
   font-size: 1.5rem;
+  font-weight: 700;
+  color: #f4f4f4;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+@media (min-width: 48rem) {
+  .shop-container .shop {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    gap: 1rem;
+  }
+  .shop-container .shop .shop-col {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .shop-container .shop .search-card {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+  .shop-container .shop .shop-card:nth-child(3) {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .shop-container .shop .shop-card:nth-child(4) {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  .shop-container .shop .shop-card:nth-child(5) {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .shop-container .shop .shop-card:nth-child(6) {
+    grid-column: 2/3;
+    grid-row: 4/5;
+  }
+}
+@media (min-width: 75rem) {
+  .shop-container .shop {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    gap: 3rem;
+  }
+  .shop-container .shop .shop-col {
+    grid-column: 1/3;
+    grid-row: 1;
+  }
+  .shop-container .shop .search-card {
+    grid-column: 3/4;
+    grid-row: 1;
+  }
+  .shop-container .shop .shop-card:nth-child(3) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .shop-container .shop .shop-card:nth-child(4) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .shop-container .shop .shop-card:nth-child(5) {
+    grid-column: 3;
+    grid-row: 2;
+  }
+  .shop-container .shop .shop-card:nth-child(6) {
+    grid-column: 4;
+    grid-row: 2;
+  }
 }/*# sourceMappingURL=shop.css.map */

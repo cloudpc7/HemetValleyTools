@@ -1,46 +1,103 @@
 @use "../../variables/colors.scss" as colors;
-@use "../../variables/fonts.scss" as fonts;
-@use "../../variables/styleUtil.scss" as util;
-
 .list-container {
-    .list-row {
-        .title-col {
-            .tool-list-title {
-                @include fonts.font-theme(heading,h4);
-                font-size: 1.25rem;
-                font-weight: 500;
-                letter-spacing: 0.1em;
-            }
-        }
-
-        .fitler {
-
-        }
-
-        .tool-col {
-            .tool-card {
-                .tool-name {
-                    @include fonts.font-theme(paragraph);
-                    font-size: 1.125rem;
-                    font-weight: 400;
-                    letter-spacing: 0.1em;
-                }
-                .tool-image {
-                    width: 6rem;
-                    height: 6rem;
-                }
-
-                .tool-body {
-                    .spec {
-                        @include fonts.font-theme(paragraph);
-                        font-size: 0.675rem;
-                        letter-spacing: 0.1em;
-                    }
-                    .tool-btn {
-                        @include util.button-style-two();
-                    }
-                }
-            }
-        }
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 75rem) {
+    padding: 0 !important;
+  }
+  .list-row {
+    flex: 1;
+    @media (min-width: 75rem) {
+      padding: 0 !important;
     }
+
+    .title-col {
+
+      .tool-list-title {
+        font-family: "Tenor Sans", serif;
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #f4f4f4;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin: 0; 
+      }
+    }
+
+    .filter {
+      .fa-filter {
+        color: #f4f4f4;
+      }
+
+      @media (min-width: 75rem) {
+        display: flex;
+        align-items: end;
+        justify-content: start;
+        padding: 1rem 0 !important;
+      }
+    }
+
+    .tool-col {
+      flex: 1; 
+      display: flex;
+      justify-content: center;
+
+      @media (min-width: 75rem) {
+        padding: 0 !important;
+      }
+      .tool-card {
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff;
+        border-radius: 8px;
+        padding: 1rem; 
+        transition: box-shadow 0.2s ease;
+        width: 100%;
+        .tool-image {
+          width: 6rem;
+          height: 6rem;
+        }
+
+        .tool-body {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          min-height: 14rem;
+
+          .tool-name {
+            font-family: "Open Sans", sans-serif;
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #333333;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 0.5rem;
+          }
+
+          .spec {
+            font-family: "Open Sans", sans-serif;
+            font-size: 0.75rem;
+            color: #555555;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.25rem;
+          }
+
+          .tool-btn {
+            background-color: #000000;
+            border: none;
+            color: #ffffff;
+            font-family: "Open Sans", sans-serif;
+            font-size: 0.875rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            &:hover {
+              background-color: #4a4a4a;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
 }

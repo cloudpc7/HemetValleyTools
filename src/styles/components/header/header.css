@@ -11,7 +11,13 @@
   max-width: 3.75rem;
   max-height: 3.75rem;
 }
-.navbar .nav-container .nav-icon-section .fa-1x {
+@media (min-width: 48rem) {
+  .navbar .nav-container .nav-icon-section .skull-image {
+    max-width: 5rem;
+    max-height: 5rem;
+  }
+}
+.navbar .nav-container .nav-icon-section .svg-inline--fa {
   max-width: 2rem;
   color: #ffffff;
 }
@@ -19,7 +25,7 @@
   max-width: 4rem;
 }
 .navbar .nav-container .nav-icon-section .navbar-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 .navbar .row .hero-title {
   max-width: 15rem;
@@ -39,6 +45,14 @@
 .navbar .row .repair-btn:hover {
   background-color: #000000;
   color: #ffffff;
+}
+.navbar .row .cart:hover {
+  color: #4a4a4a;
+}
+@media (min-width: 62rem) {
+  .navbar .row {
+    display: none;
+  }
 }
 
 .offcanvas {
@@ -62,6 +76,13 @@
   max-width: 3.75rem;
   max-height: 3.75rem;
 }
+@media (min-width: 62rem) {
+  .offcanvas .offcanvas-body {
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: center;
+  }
+}
 .offcanvas .offcanvas-body .nav-link {
   font-family: "Tenor Sans", serif;
   color: #ffffff;
@@ -70,13 +91,19 @@
   color: #ffffff;
   padding: 0;
 }
+@media (min-width: 62rem) {
+  .offcanvas .offcanvas-body .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
 .offcanvas .offcanvas-body .nav-link:hover {
   text-decoration: underline;
   text-underline-offset: 6px;
-  color: #ffffff;
-}
-.offcanvas .offcanvas-body .search-input {
-  margin: 0.5rem 0;
+  color: #4a4a4a;
+  text-decoration-color: #ffffff;
 }
 .offcanvas .offcanvas-body .search-icon {
   color: #ffffff;
@@ -107,18 +134,22 @@
   box-shadow: none;
 }
 .offcanvas .offcanvas-body .font-nav {
-  display: flex;
-  justify-content: center;
   border-radius: 0.5rem;
-  border: 1px solid #ffffff;
-  padding: 1rem;
   max-width: 5rem;
 }
+@media (min-width: 62rem) {
+  .offcanvas .offcanvas-body .font-nav {
+    display: flex;
+    justify-content: center;
+  }
+}
 .offcanvas .offcanvas-body .font-nav:hover {
-  background-color: #ffffff;
-  color: #000000;
+  color: #4a4a4a;
 }
 .offcanvas .offcanvas-body .rental-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #ffffff;
   background-color: #000000;
   color: #ffffff;
