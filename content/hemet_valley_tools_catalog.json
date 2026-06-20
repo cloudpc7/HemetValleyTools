@@ -1,0 +1,664 @@
+{
+  "products": [
+    {
+      "id": "milw_2904_20",
+      "brand": "Milwaukee",
+      "name": "M18 FUEL™ 1/2\" Hammer Drill/Driver (Tool-Only)",
+      "modelNumber": "2904-20",
+      "category": "Power Tools",
+      "subCategory": "Drills",
+      "price": 199.00,
+      "specs": {
+        "Voltage": "18V",
+        "Battery System": "M18 REDLITHIUM™",
+        "No Load RPM": "0-500 / 0-2,100 RPM",
+        "Max Torque": "1,400 in-lbs",
+        "Chuck Type": "1/2\" All-Metal Single Sleeve",
+        "Tool Length": "6.9 in",
+        "Tool Weight": "3.3 lbs"
+      },
+      "features": [
+        "POWERSTATE™ Brushless Motor delivers industry-leading 1,400 in-lbs of torque",
+        "REDLINK PLUS™ Intelligence protects against thermal overload and system bind-ups",
+        "AutoStop™ control protects the user against violent kickbacks or over-rotation"
+      ],
+      "imageUrl": "/assets/products/milw_2904_20.png"
+    },
+    {
+      "id": "milw_2821_20",
+      "brand": "Milwaukee",
+      "name": "M18 FUEL™ Reciprocating Saw - SAWZALL® (Tool-Only)",
+      "modelNumber": "2821-20",
+      "category": "Power Tools",
+      "subCategory": "Reciprocating Saws",
+      "price": 219.00,
+      "specs": {
+        "Voltage": "18V",
+        "Battery System": "M18 REDLITHIUM™",
+        "Stroke Length": "1-1/4\"",
+        "Strokes Per Minute": "0-3,000 SPM",
+        "Keyless Clamp": "QUIK-LOK®",
+        "Adjustable Shoe": "Yes, pivoting shoe",
+        "Tool Weight": "6.8 lbs"
+      },
+      "features": [
+        "Cuts faster than traditional gas or corded professional saws",
+        "Lever-action QUIK-LOK™ blade clamp provides fast, tool-free blade changes",
+        "Anti-corrosion blade clamp design protects against concrete slurry and rust"
+      ],
+      "imageUrl": "/assets/products/milw_2821_20.png"
+    },
+    {
+      "id": "milw_2830_20",
+      "brand": "Milwaukee",
+      "name": "M18 FUEL™ Rear Handle 7-1/4\" Circular Saw",
+      "modelNumber": "2830-20",
+      "category": "Power Tools",
+      "subCategory": "Circular Saws",
+      "price": 279.00,
+      "specs": {
+        "Voltage": "18V",
+        "Battery System": "M18 REDLITHIUM™",
+        "Blade Size": "7-1/4\"",
+        "Max RPM": "5,800 RPM",
+        "Max Cut Depth at 90°": "2-1/2\"",
+        "Bevel Capacity": "53°",
+        "Tool Weight": "10.0 lbs"
+      },
+      "features": [
+        "Delivers the raw power of a 15A corded worm drive circular saw",
+        "Up to 570 cuts per charge on a single M18 REDLITHIUM™ HD12.0 battery pack",
+        "Heavy-duty magnesium shoe reduces weight while maintaining professional rigidity"
+      ],
+      "imageUrl": "/assets/products/milw_2830_20.png"
+    },
+    {
+      "id": "milw_mx_cos350",
+      "brand": "Milwaukee",
+      "name": "MX FUEL™ 14\" Cut-Off Saw (Concrete & Steel)",
+      "modelNumber": "MXF314-2XC",
+      "category": "Power Tools",
+      "subCategory": "Industrial Cut-Off Saws",
+      "price": 2999.00,
+      "specs": {
+        "Power System": "MX FUEL™ RedLithium™",
+        "Blade Size": "14\"",
+        "No Load RPM": "5,350 RPM",
+        "Max Cut Depth": "5\"",
+        "Water Connection": "Integrated Quick-Connect",
+        "Tool Weight": "32.0 lbs"
+      },
+      "features": [
+        "Full 14\" capacity for cutting structural steel, reinforced rebar, masonry, and ductile iron",
+        "Zero gas headaches: zero emissions, lower vibrations, and whisper-quiet indoor operations",
+        "Push-button activation avoids strenuous pull-starts in the field"
+      ],
+      "imageUrl": "/assets/products/milw_mx_cos350.png"
+    },
+    {
+      "id": "mak_xph14z",
+      "brand": "Makita",
+      "name": "18V LXT® Lithium-Ion Brushless 1/2\" Hammer Drill-Driver",
+      "modelNumber": "XPH14Z",
+      "category": "Power Tools",
+      "subCategory": "Drills",
+      "price": 179.00,
+      "specs": {
+        "Voltage": "18V",
+        "Battery System": "18V LXT® Lithium-Ion",
+        "No Load RPM": "0-550 / 0-2,100 RPM",
+        "Max Torque": "1,250 in-lbs",
+        "Blows Per Minute": "0-8,250 / 0-31,500 BPM",
+        "Tool Length": "7-1/8 in",
+        "Tool Weight": "4.2 lbs"
+      },
+      "features": [
+        "Efficient BL™ Brushless motor is electronically controlled to optimize battery energy use",
+        "All-metal gear housing and steel-reinforced handle for extreme jobsite durability",
+        "Ultra-compact and ergonomic design at only 7-1/8\" long for tight overhead spaces"
+      ],
+      "imageUrl": "/assets/products/mak_xph14z.png"
+    },
+    {
+      "id": "mak_xsr01pt",
+      "brand": "Makita",
+      "name": "36V (18V X2) LXT® Brushless Rear Handle 7-1/4\" Circular Saw",
+      "modelNumber": "XSR01PT",
+      "category": "Power Tools",
+      "subCategory": "Circular Saws",
+      "price": 359.00,
+      "specs": {
+        "Voltage": "36V (Requires 2x LXT® 18V)",
+        "Blade Size": "7-1/4\"",
+        "Max RPM": "5,100 RPM",
+        "Max Cut Depth at 90°": "2-9/16\"",
+        "Bevel Capacity": "53°",
+        "Tool Weight": "12.4 lbs"
+      },
+      "features": [
+        "Powered by two 18V LXT® batteries to output clean, sustained 36V motor power",
+        "Automatic Speed Change™ technology adjusts cutting speed and torque under load",
+        "Die-cast magnesium base and wrap-around safety blade guard reduce tool weight"
+      ],
+      "imageUrl": "/assets/products/mak_xsr01pt.png"
+    },
+    {
+      "id": "mak_gsl02m1",
+      "brand": "Makita",
+      "name": "40V Max XGT® Brushless 14\" Power Cutter Saw",
+      "modelNumber": "GSL02M1",
+      "category": "Power Tools",
+      "subCategory": "Industrial Cut-Off Saws",
+      "price": 899.00,
+      "specs": {
+        "Voltage": "40V Max XGT®",
+        "Blade Size": "14\"",
+        "No Load RPM": "5,300 RPM",
+        "Max Cut Depth": "5\"",
+        "Water Connection": "Integrated Wet Feed",
+        "Tool Weight": "22.7 lbs"
+      },
+      "features": [
+        "Matches or exceeds the raw cutting power of standard 75.6cc gas-powered flat saws",
+        "Substantially lighter than gas-powered cutters, reducing operator shoulder strain",
+        "Electronic feedback sensor stops the motor immediately if the diamond blade binds up"
+      ],
+      "imageUrl": "/assets/products/mak_gsl02m1.png"
+    },
+    {
+      "id": "mak_gru01z",
+      "brand": "Makita",
+      "name": "40V Max XGT® Brushless Cordless 15\" String Trimmer",
+      "modelNumber": "GRU01Z",
+      "category": "Power Tools",
+      "subCategory": "String Trimmers",
+      "price": 299.00,
+      "specs": {
+        "Voltage": "40V Max XGT®",
+        "Cutting Swath": "15\"",
+        "RPM Modes": "4,000 / 4,600 / 5,700 RPM",
+        "Shaft Type": "Straight Solid Steel",
+        "Tool Weight": "10.4 lbs"
+      },
+      "features": [
+        "High-performance brushless motor matches power of professional 30cc gas landscaping rigs",
+        "Automatic Torque Drive technology shifts speeds intelligently to extend runtime",
+        "Manual reverse rotation system quickly clears thick weeds and debris from the spool"
+      ],
+      "imageUrl": "/assets/products/mak_gru01z.png"
+    },
+    {
+      "id": "mak_gcu01z",
+      "brand": "Makita",
+      "name": "40V Max XGT® Brushless 18\" Chainsaw",
+      "modelNumber": "GCU01Z",
+      "category": "Power Tools",
+      "subCategory": "Chainsaws",
+      "price": 349.00,
+      "specs": {
+        "Voltage": "40V Max XGT®",
+        "Bar Length": "18\"",
+        "Chain Speed": "3,940 FPM",
+        "Oil Reservoir": "6.8 oz",
+        "Tool Weight": "13.2 lbs"
+      },
+      "features": [
+        "Professional-grade 18\" bar handles heavy residential limb clearing and tree operations",
+        "Active Feedback-sensing Technology (AFT) shuts down the motor if cutting stops suddenly",
+        "Provides gas-equivalent 42cc motor performance without smelly fuel or cold-start pulling"
+      ],
+      "imageUrl": "/assets/products/mak_gcu01z.png"
+    },
+    {
+      "id": "milw_2825_21st",
+      "brand": "Milwaukee",
+      "name": "M18 FUEL™ Outdoor String Trimmer with QUIK-LOK™",
+      "modelNumber": "2825-21ST",
+      "category": "Power Tools",
+      "subCategory": "String Trimmers",
+      "price": 329.00,
+      "specs": {
+        "Voltage": "18V",
+        "Cutting Swath": "14\" - 16\"",
+        "No Load RPM": "0-4,900 / 0-6,200 RPM",
+        "Connector Type": "QUIK-LOK™ Quick Coupler",
+        "Tool Weight": "9.9 lbs"
+      },
+      "features": [
+        "Reaches full throttle under 1 second for instant cutting responses",
+        "QUIK-LOK™ attachment coupler is fully compatible with pole saws, edgers, and hedge trimmers",
+        "Variable speed triggers provide maximum runtime management on light brush"
+      ],
+      "imageUrl": "/assets/products/milw_2825_21st.png"
+    },
+    {
+      "id": "milw_48_22_8426",
+      "brand": "Milwaukee",
+      "name": "PACKOUT™ Rolling Tool Box System",
+      "modelNumber": "48-22-8426",
+      "category": "Blades & Accessories",
+      "subCategory": "Modular Storage",
+      "price": 139.00,
+      "specs": {
+        "Material": "Impact Resistant Polymers",
+        "Weight Capacity": "250 lbs",
+        "Wheel Size": "9\" All-Terrain Solid Wheels",
+        "Dimensions": "22.1\" W x 18.6\" D x 25.6\" H",
+        "Rating": "IP65 Weather Rated Seal"
+      },
+      "features": [
+        "Part of the industry's most durable and versatile modular site-storage system",
+        "Constructed from high-grade impact-resistant polymers for concrete and outdoor use",
+        "Heavy-duty telescoping extension handle offers reliable towing on rough aggregate surfaces"
+      ],
+      "imageUrl": "/assets/products/milw_48_22_8426.png"
+    },
+    {
+      "id": "bos_11264evs",
+      "brand": "Bosch",
+      "name": "1-5/8\" SDS-Max Combination Rotary Hammer",
+      "modelNumber": "11264EVS",
+      "category": "Power Tools",
+      "subCategory": "Rotary Hammers",
+      "price": 549.00,
+      "specs": {
+        "Power Source": "120V Corded (13.0 Amp)",
+        "Impact Energy": "6.5 ft-lbs",
+        "No Load RPM": "170 - 340 RPM",
+        "Blows Per Minute": "1,700 - 2,900 BPM",
+        "Max Bit Diameter": "1-5/8\" (SDS-Max)",
+        "Tool Weight": "15.2 lbs"
+      },
+      "features": [
+        "Turbo™ Power feature boosts impact energy by 20% in hammer-only chisel mode",
+        "Built-in active Vibration Control handle reduces fatigue on large anchoring jobs",
+        "Vario-Lock™ system rotates and locks chisels into 12 distinct positions for ergonomic chipping"
+      ],
+      "imageUrl": "/assets/products/bos_11264evs.png"
+    },
+    {
+      "id": "stihl_ms_261_cm",
+      "brand": "Stihl",
+      "name": "MS 261 C-M Professional Gas Chainsaw",
+      "modelNumber": "MS-261",
+      "category": "Power Tools",
+      "subCategory": "Chainsaws",
+      "price": 649.00,
+      "specs": {
+        "Power Source": "Gas-Powered 2-Stroke",
+        "Engine Displacement": "50.2 cc",
+        "Engine Power": "4.0 bhp (3.0 kW)",
+        "Recommended Bar": "16 in or 18 in Rollomatic™",
+        "Fuel Tank Capacity": "16.9 oz",
+        "Dry Powerhead Weight": "10.8 lbs"
+      },
+      "features": [
+        "STIHL M-Tronic™ electronic engine management auto-tunes fuel-air mixture under cold temperatures",
+        "High-efficiency anti-vibration rubber mounts protect commercial timber workers",
+        "Emissions system reduces environmental exhaust output up to 50% vs legacy chainsaws"
+      ],
+      "imageUrl": "/assets/products/stihl_ms_261_cm.png"
+    },
+    {
+      "id": "hon_eu2200i",
+      "brand": "Honda",
+      "name": "EU2200i Super Quiet Inverter Generator",
+      "modelNumber": "EU2200i",
+      "category": "Generators",
+      "subCategory": "Inverter Generators",
+      "price": 1099.00,
+      "specs": {
+        "Engine Type": "Honda GXR120 Commercial",
+        "Max Output": "2,200 Watts (120V AC)",
+        "Continuous Output": "1,800 Watts",
+        "Fuel Tank Capacity": "0.95 Gal",
+        "Noise Level": "48 - 57 dBA",
+        "Dry Unit Weight": "47.4 lbs"
+      },
+      "features": [
+        "Honda Inverter technology delivers clean, pure-sine wave power safe for sensitive computer gear",
+        "Eco-Throttle™ system adjusts throttle speed to load, boosting runtimes up to 8.1 hours on one tank",
+        "Whisper-quiet operational levels preserve contractor communication and residential peace"
+      ],
+      "imageUrl": "/assets/products/hon_eu2200i.png"
+    },
+    {
+      "id": "hus_segment_14",
+      "brand": "Husqvarna",
+      "name": "14\" Segmented Elite-Cut Diamond Saw Blade",
+      "modelNumber": "Elite-Cut-14",
+      "category": "Blades & Accessories",
+      "subCategory": "Diamond Blades",
+      "price": 185.00,
+      "specs": {
+        "Diameter": "14 Inches (350 mm)",
+        "Arbor Size": "1\" Arbor (20 mm Bushing Included)",
+        "Segment Height": "0.45\" Diamond Segment",
+        "Blade Core": "Laser Welded High-Tensile Steel",
+        "Max RPM": "5,400 RPM",
+        "Application": "Reinforced Concrete & Brick"
+      },
+      "features": [
+        "Professional-grade diamond segments engineered for rapid wet or dry concrete cutting",
+        "Deep laser-cut expansion slots protect the steel core from warp and heat buildup",
+        "Segmented rim style delivers immediate slurry disposal and lightning-fast cutting speeds"
+      ],
+      "imageUrl": "/assets/products/hus_segment_14.png"
+    },
+    {
+      "id": "milw_m18_highout_12",
+      "brand": "Milwaukee",
+      "name": "M18 REDLITHIUM™ HIGH OUTPUT™ HD12.0 Battery",
+      "modelNumber": "48-11-1812",
+      "category": "Blades & Accessories",
+      "subCategory": "Batteries",
+      "price": 249.00,
+      "specs": {
+        "Voltage": "18V",
+        "Capacity": "12.0 Amp-Hours (Ah)",
+        "Cell Type": "21700 High-Capacity Cells",
+        "Weather Seal": "IP65 Enclosure Protection",
+        "Charge Level Gauge": "Onboard LED Fuel Gauge",
+        "Unit Weight": "3.4 lbs"
+      },
+      "features": [
+        "Delivers 50% more raw power and runs up to 50% cooler than legacy M18 battery packs",
+        "Optimized for power-hungry heavy demolition, concrete sawing, and sustained grinding tools",
+        "High-durability internal rubber barriers safeguard cells from extreme field vibrations"
+      ],
+      "imageUrl": "/assets/products/milw_m18_highout_12.png"
+    },
+    {
+      "id": "mak_xag04z",
+      "brand": "Makita",
+      "name": "18V LXT® Brushless 5\" Angle Grinder (Tool-Only)",
+      "modelNumber": "XAG04Z",
+      "category": "Power Tools",
+      "subCategory": "Grinders",
+      "price": 179.00,
+      "specs": {
+        "Voltage": "18V",
+        "Battery System": "18V LXT® Lithium-Ion",
+        "Wheel Size": "5 Inches (125 mm)",
+        "No Load RPM": "8,500 RPM",
+        "Safety Tech": "Automatic Speed Change™",
+        "Tool Length": "14-1/4 in",
+        "Tool Weight": "5.7 lbs"
+      },
+      "features": [
+        "Brushless motor is electronically controlled to optimize battery life on industrial sites",
+        "Electronic sensor shuts off the tool if wheel rotation suddenly drops or binds",
+        "Ergonomic barrel design with rubberized soft grips maximizes worker comfort and reach"
+      ],
+      "imageUrl": "/assets/products/mak_xag04z.png"
+    },
+    {
+      "id": "stihl_br_800_ce",
+      "brand": "Stihl",
+      "name": "BR 800 C-E Magnum Backpack Blower",
+      "modelNumber": "BR-800",
+      "category": "Power Tools",
+      "subCategory": "Landscaping Blowers",
+      "price": 699.00,
+      "specs": {
+        "Power Source": "Gas-Powered 4-MIX® Engine",
+        "Engine Displacement": "79.9 cc",
+        "Engine Power": "4.4 bhp",
+        "Blowing Force": "41 Newtons",
+        "Max Air Velocity": "239 mph",
+        "Air Volume at Nozzle": "912 cfm",
+        "Unit Weight": "23.1 lbs"
+      },
+      "features": [
+        "Most powerful blower in the STIHL gas catalog, optimized for heavy valley leaves and soil",
+        "Ergonomic backpack harness with adjustable support chest straps minimizes hip fatigue",
+        "Side-start starter pull allows the operator to restart the blower easily while carrying it"
+      ],
+      "imageUrl": "/assets/products/stihl_br_800_ce.png"
+    }
+  ],
+  "rentals": [
+    {
+      "id": "rental_plate_compactor_honda",
+      "category": "Heavy Duty",
+      "name": "Honda GX160 Premium Plate Compactor",
+      "brand": "Honda Power Equipment",
+      "price": 85,
+      "specs": {
+        "Engine": "Honda GX160 5.5 HP 4-Stroke",
+        "Plate Dimensions": "19.5\" x 20.0\" Solid Steel",
+        "Vibrational Frequency": "5,400 VPM",
+        "Centrifugal Compactive Force": "3,150 lbs",
+        "Recommended fuel": "Regular Unleaded Gasoline",
+        "Machine Weight": "185.0 lbs"
+      },
+      "rentalRates": {
+        "fourHour": 50.00,
+        "daily": 85.00,
+        "weekly": 340.00,
+        "monthly": 980.00
+      },
+      "safetyEquipment": [
+        "Safety ANSI Glasses",
+        "Acoustic Ear Protection",
+        "Steel-Toe Boot Protection"
+      ],
+      "imageUrl": "/assets/rentals/plate_compactor_honda.png",
+      "description": "Premium flat plate compactor engineered for heavy clay, aggregate, and asphalt compaction in foundations and driveway trenches. Heavy-duty Honda GX160 starts reliably first-time."
+    },
+    {
+      "id": "rental_concrete_saw_milw",
+      "category": "Power Tools",
+      "name": "Milwaukee MX FUEL™ 14\" Concrete Cut-Off Saw",
+      "brand": "Milwaukee",
+      "price": 120,
+      "specs": {
+        "Power Source": "MX FUEL™ Lithium-Ion Battery",
+        "Blade Size Capacity": "14\"",
+        "Max Cut Depth": "5\"",
+        "Slurry Dust Connection": "Integrated Wet Quick-Connect",
+        "Chassis Weight": "32.0 lbs"
+      },
+      "rentalRates": {
+        "fourHour": 75.00,
+        "daily": 120.00,
+        "weekly": 450.00,
+        "monthly": 1250.00
+      },
+      "safetyEquipment": [
+        "Eye Goggles",
+        "N95 Dust Respirator Mask",
+        "Heavy Duty Knuckle Gloves"
+      ],
+      "imageUrl": "/assets/rentals/milw_mx_saw.png",
+      "description": "Zero emissions cordless concrete cutter matching gas-powered tools. Perfect for indoor trenching, concrete floor patching, and commercial basement expansion where gas fumes are prohibited."
+    },
+    {
+      "id": "rental_generator_honda_eu3000",
+      "category": "Heavy Duty",
+      "name": "Honda EU3000iS Super Quiet Inverter Generator",
+      "brand": "Honda Power Equipment",
+      "price": 95,
+      "specs": {
+        "Engine": "Honda Commercial GX190",
+        "Max Wattage Output": "3,000 Watts",
+        "Continuous Wattage": "2,800 Watts",
+        "Sound Rating": "49 to 58 dBA (Whisper Quiet)",
+        "Runtime Capacity": "Up to 20 Hours on 3.4 Gal tank"
+      },
+      "rentalRates": {
+        "fourHour": 60.00,
+        "daily": 95.00,
+        "weekly": 380.00,
+        "monthly": 1100.00
+      },
+      "safetyEquipment": [
+        "Proper Outdoor Ventilation Only",
+        "Heavy Spark Plugs"
+      ],
+      "imageUrl": "/assets/rentals/honda_eu3000.png",
+      "description": "Delivers super quiet, ultra-clean pure sine wave electricity ideal for complex construction lasers, computer stations, mobile offices, and sensitive heavy field equipment."
+    },
+    {
+      "id": "rental_demolition_hammer_milw_mx",
+      "category": "Power Tools",
+      "name": "Milwaukee MX FUEL™ Demolition Breaker Hammer",
+      "brand": "Milwaukee",
+      "price": 110,
+      "specs": {
+        "Power Source": "MX FUEL™ RedLithium™ XC406",
+        "Impact Force": "50 ft-lbs Blow Energy",
+        "Chisel Chuck": "1-1/8\" Hex shank",
+        "Blows Per Minute": "1,300 BPM",
+        "Tool Weight": "63.9 lbs"
+      },
+      "rentalRates": {
+        "fourHour": 65.00,
+        "daily": 110.00,
+        "weekly": 420.00,
+        "monthly": 1150.00
+      },
+      "safetyEquipment": [
+        "Heavy Steel Toe Boots",
+        "Shatter-Resistant Eye Protection",
+        "Vibration-Absorbing Hand Protection"
+      ],
+      "imageUrl": "/assets/rentals/milw_mx_breaker.png",
+      "description": "High-impact heavy demolition concrete breaker hammer. Eliminates compressor hose towing and local gas fumes while breaking up to 2 tons of thick concrete per charge."
+    },
+    {
+      "id": "rental_power_washer_honda_4000",
+      "category": "Heavy Duty",
+      "name": "Honda GX390 4000 PSI Commercial Power Washer",
+      "brand": "Honda Power Equipment",
+      "price": 75,
+      "specs": {
+        "Engine Model": "Honda GX390 13.0 HP Overhead Valve",
+        "Maximum Water Pressure": "4,000 PSI",
+        "Water Flow Rate": "4.0 GPM",
+        "Pump Brand": "CAT® Industrial Triplex Plunger Pump",
+        "Hose Length": "50 ft High-Pressure Steel Braided"
+      },
+      "rentalRates": {
+        "fourHour": 50.00,
+        "daily": 75.00,
+        "weekly": 290.00,
+        "monthly": 850.00
+      },
+      "safetyEquipment": [
+        "Full Face Guard",
+        "Safety Heavy Gloves",
+        "Closed-Toe Rubber Work Boots"
+      ],
+      "imageUrl": "/assets/rentals/pressure_washer_honda.png",
+      "description": "Heavy-duty commercial grade pressure washer combining a 13 HP Honda engine with a CAT Triplex pump. Strips away stubborn dry paint, mud, deep grease, and jobsite grime instantly."
+    },
+    {
+      "id": "rental_concrete_flat_saw_hus",
+      "category": "Heavy Duty",
+      "name": "Husqvarna FS 400 LV Walk-Behind Flat Saw",
+      "brand": "Husqvarna",
+      "price": 140,
+      "specs": {
+        "Engine Displacement": "Honda GX390 11.7 HP Gas Engine",
+        "Max Blade Size Capacity": "18\" Diameter",
+        "Max Cut Depth": "6.5 inches",
+        "Water Tank Capacity": "7.9 Gallons Integrated",
+        "Chassis Weight": "218.0 lbs"
+      },
+      "rentalRates": {
+        "fourHour": 90.00,
+        "daily": 140.00,
+        "weekly": 540.00,
+        "monthly": 1490.00
+      },
+      "safetyEquipment": [
+        "Safety Ear Protection Muffs",
+        "Wet-Grip Safety Boots",
+        "Particulate Respirator Mask"
+      ],
+      "imageUrl": "/assets/rentals/hus_flat_saw.png",
+      "description": "Very convenient, compact walk-behind flat saw designed for concrete slab trenching, road utility cuts, and expansion joints. Features a patented gas spring depth assist lever."
+    },
+    {
+      "id": "rental_post_hole_digger_stihl",
+      "category": "Landscaping",
+      "name": "Stihl BT 131 Professional Earth Auger",
+      "brand": "Stihl",
+      "price": 65,
+      "specs": {
+        "Engine Displacement": "36.3 cc 4-MIX® Low-Emission",
+        "Engine Power Output": "1.9 bhp",
+        "Maximum Auger Speed": "200 RPM",
+        "Bit Diameters Available": "4\", 6\", 8\", or 10\" Earth Auger Bits",
+        "Auger Weight": "22.0 lbs (without bit)"
+      },
+      "rentalRates": {
+        "fourHour": 40.00,
+        "daily": 65.00,
+        "weekly": 240.00,
+        "monthly": 680.00
+      },
+      "safetyEquipment": [
+        "Shatterproof Visor Shield",
+        "Firm Leather Gripping Gloves",
+        "Heavy Protective Shinguards"
+      ],
+      "imageUrl": "/assets/rentals/stihl_auger.png",
+      "description": "One-man professional earth drill equipped with an oversized hip brake block which instantly cuts engine ignition if the auger bit hits a deep rock or tree root."
+    },
+    {
+      "id": "rental_wood_chipper_bearcat",
+      "category": "Heavy Duty",
+      "name": "Bear Cat CH4554 Road-Towable 4\" Wood Chipper",
+      "brand": "Bear Cat",
+      "price": 195,
+      "specs": {
+        "Engine": "Subaru EX40 14.0 HP Gas Engine",
+        "Chipping Capacity": "4 Inches (100 mm) Diameter Logs",
+        "Feed Opening Size": "16\" x 20\" Safety Hopper",
+        "Trailer Hitch Size": "2\" Trailer Ball (With Road Suspension)",
+        "Machine Weight": "645.0 lbs"
+      },
+      "rentalRates": {
+        "fourHour": 125.00,
+        "daily": 195.00,
+        "weekly": 720.00,
+        "monthly": 1950.00
+      },
+      "safetyEquipment": [
+        "Heavy Duty Ear Defenders",
+        "Ansi Z87 Safety Impact Glasses",
+        "Tight Cuff Fitting Gloves"
+      ],
+      "imageUrl": "/assets/rentals/bearcat_chipper.png",
+      "description": "Compact, highly towable gravity-feed commercial drum wood chipper. Quickly pulverizes tough brush, oak branches, and garden orchard waste into premium compost wood chips."
+    },
+    {
+      "id": "rental_air_compressor_sullair",
+      "category": "Heavy Duty",
+      "name": "Sullair 185 CFM Towable Rotary Screw Compressor",
+      "brand": "Sullair",
+      "price": 245,
+      "specs": {
+        "Air Volume Output": "185 CFM @ 100 PSI",
+        "Engine Type": "Caterpillar 49 HP Turbo Diesel",
+        "Fuel Reservoir Size": "27.0 Gallons (Up to 10 hrs run)",
+        "Tow Connection": "3\" Pintle Ring / 2\" Ball Tow Coupler",
+        "Operating Weight": "2,140 lbs"
+      },
+      "rentalRates": {
+        "fourHour": 160.00,
+        "daily": 245.00,
+        "weekly": 920.00,
+        "monthly": 2450.00
+      },
+      "safetyEquipment": [
+        "Full Safety Whip Checks",
+        "Double Industrial Ear Caps"
+      ],
+      "imageUrl": "/assets/rentals/sullair_185.png",
+      "description": "Industrial tow-behind rotary screw diesel air compressor. Runs multiple pneumatic demolition hammers, asphalt rock drills, sandblasting units, or industrial paint lines simultaneously."
+    }
+  ]
+}

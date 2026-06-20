@@ -1,0 +1,63 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isAdmin() {
+      return request.auth != null && request.auth.token.role == 'admin';
+    }
+
+    match /transactions/{docId} {
+      allow read: if isAdmin();
+      allow write: if false;
+    }
+
+    match /bookings/{docId} {
+      allow read: if isAdmin();
+      allow write: if false;
+    }
+
+    match /b2b_applications/{docId} {
+      allow read: if isAdmin();
+      allow write: if false;
+    }
+
+    match /service_requests/{docId} {
+      allow read: if isAdmin();
+      allow write: if false;
+    }
+
+    match /repair_tickets/{docId} {
+      allow read: if isAdmin();
+      allow write: if false;
+    }
+
+    match /audit_logs/{docId} {
+      allow read: if isAdmin();
+      allow write: if false;
+    }
+
+    match /customer_feedback/{docId} {
+      allow read: if isAdmin();
+      allow write: if false;
+    }
+
+    match /products/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /rentals/{docId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /staff_users/{docId} {
+      allow read: if isAdmin();
+      allow write: if false;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

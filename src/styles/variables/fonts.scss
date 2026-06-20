@@ -1,0 +1,92 @@
+@use 'sass:map';
+@use "../colors/colors" as *;
+@use "../utilities/utils" as *;
+
+
+$font-family: (
+    primary: ("Jost", sans-serif),
+);
+
+$font-size: (
+    base: 1rem,
+    h1: 1.5rem,
+    h2: 1.25rem,
+    h3: 1.125rem,
+    h4: 0.875rem,
+    body2: 0.9375rem,
+    body3: 0.8125rem,
+);
+
+$font-weight: (
+    h1: 900,
+    h2: 900,
+    h3: 900,
+    h4: 900,
+    body1: 400,
+    body2: 400,
+    body3: 700,
+    button: 600,
+);
+
+$letter-spacing: (
+    base: 0rem,
+    h1: -0.020625rem,
+    h2: -0.015625rem,
+    h3: -0.015625rem,
+    h4: -0.0125rem,
+    card: -0.01131rem,
+);
+
+@function fontFamily($key) {
+  @return map.get($font-family, $key);
+}
+
+@function fontSize($key) {
+  @return map.get($font-size, $key);
+}
+
+@function fontWeight($key) {
+  @return map.get($font-weight, $key);
+}
+
+@function letterSpacing($key) {
+  @return map.get($letter-spacing, $key);
+};
+
+body, 
+p {
+    font-family: fontFamily(primary);
+    font-size: fontSize(base);
+    font-weight: fontWeight(body1);
+    letter-spacing: letterSpacing(base);
+};
+
+h1 {
+    font-family: fontFamily(primary);
+    font-size: fontSize(h1);
+    font-weight: fontWeight(h1);
+    letter-spacing: letterSpacing(h1);
+};
+
+h2 {
+    font-family: fontFamily(primary);
+    font-size: fontSize(h2);
+    font-weight: fontWeight(h2);
+    letter-spacing: letterSpacing(h2);
+};
+
+h3 {
+    font-family: fontFamily(primary);
+    font-size: fontSize(h3);
+    font-weight: fontWeight(h3);
+    letter-spacing: letterSpacing(h3);
+};
+
+h4 {
+    font-family: fontFamily(primary);
+    font-size: fontSize(h4);
+    font-weight: fontWeight(h4);
+    letter-spacing: letterSpacing(h4);
+    color: colorTheme(white);
+};
+

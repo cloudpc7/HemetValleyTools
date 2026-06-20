@@ -1,0 +1,124 @@
+# REUSABLE PROJECT CONTENT TEMPLATE
+# Copy this file for every new client project
+
+### Project Overview
+- Client Name: 
+- Industry: 
+- Project Goal / Purpose: 
+- Target Audience: 
+
+### Branding & Design
+- Primary Color: 
+- Secondary Color: 
+- Accent Color: 
+- Brand Voice/Tone: 
+- Logo Usage: 
+
+### Navigation Content
+- Main Menu Items: 
+- Icons: ()
+- Dropdown Menus: 
+
+### Hero Section
+- Headline: 
+- Subheadline: 
+- Call to Action Button Text: 
+- Background Image/Video: 
+- Secondary CTA: 
+
+### Features / Services Content
+- Feature 1: Title + Description + Icon
+- Feature 2: Title + Description + Icon
+- Feature 3: Title + Description + Icon
+- Feature 4 (optional): 
+- Feature 5 (optional): 
+
+### Products / Services Catalog
+- Product/Service Name: 
+- Short Description: 
+- Pricing: 
+- Details / Specifications: 
+- Image: 
+- CTA Button: 
+
+### About Us / Company Info
+- Company Story: 
+- Mission / Vision: 
+- Years in Business: 
+- Key Differentiators: 
+
+### Testimonials
+- Testimonial 1: Quote + Name + Role + Photo
+- Testimonial 2: Quote + Name + Role + Photo
+- Testimonial 3: Quote + Name + Role + Photo
+
+### Contact Information
+- Phone: 
+- Email: 
+- Address: 
+- Business Hours: 
+- Contact Form Fields Needed: 
+
+### Social Media Links
+- Facebook: 
+- Instagram: 
+- X (Twitter): 
+- LinkedIn: 
+- YouTube: 
+
+### Footer Content
+- Navigation Links: 
+- Legal Links (Privacy Policy, Terms, etc.): 
+- Sitemap: 
+- Copyright Text: 
+- Newsletter Signup: 
+
+### Modals & Popups
+- Modal Types: (Login, Booking, Contact, Newsletter, etc.)
+- Content for each modal: 
+
+### Functionality Requirements
+- E-commerce / Booking System: 
+- Database Needs: 
+- API Integrations: 
+- Authentication: 
+- CRUD Operations: 
+- Search & Filtering: 
+- Payment Processing: 
+- Real-time Features: 
+- Form Handling & Validation: 
+- Feedback / Notifications: 
+
+### Pages Needed
+- Home
+- About
+- Products / Services
+- Rentals / Booking
+- Repair Request
+- B2B Portal
+- Contact
+- Blog / Resources (if needed)
+- Legal Pages
+
+### Images & Media
+- Hero Images: 
+- Product Images: 
+- Feature Icons: 
+- Testimonials Photos: 
+- Other Assets: 
+
+### Buttons & CTAs
+- Primary CTA Text: 
+- Secondary CTA Text: 
+- Form Submit Buttons: 
+- Booking Buttons: 
+
+### SEO & Analytics
+- Target Keywords: 
+- Meta Title & Description (per page): 
+- Google Analytics / Tracking: 
+
+### Additional Notes / Special Requests
+- Any specific animations or interactions:
+- Accessibility Requirements:
+- Future Phase Features:

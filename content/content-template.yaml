@@ -1,0 +1,135 @@
+# =============================================
+# REUSABLE CONTENT TEMPLATE - v1.0
+# =============================================
+
+project:
+  client_name: ""
+  project_name: ""
+  industry: ""
+  goal: ""                    # e.g. "Increase online sales and bookings"
+  target_audience: ""
+  status: "In Development"    # Options: In Development, Live, Maintenance, etc.
+
+branding:
+  primary_color: ""
+  secondary_color: ""
+  accent_color: ""
+  logo_path: ""
+  brand_voice: ""
+  tagline: ""
+
+navigation:
+  menu_items:
+    - name: "Home"
+      icon: ""
+      link: "/"
+    - name: ""
+      icon: ""
+      link: ""
+hero:
+  headline: ""
+  subheadline: ""
+  primary_cta_text: ""
+  secondary_cta_text: ""
+  background_image: ""
+
+features:
+  - title: ""
+    description: ""
+    icon: ""
+  - title: ""
+    description: ""
+    icon: ""
+  - title: ""
+    description: ""
+    icon: ""
+
+products_services:
+  - name: ""
+    short_description: ""
+    price: ""
+    details: ""
+    image: ""
+    cta_text: ""
+
+about:
+  story: ""
+  mission: ""
+  vision: ""
+  years_in_business: ""
+  key_differentiators: []
+
+testimonials:
+  - quote: ""
+    name: ""
+    role: ""
+    photo: ""
+
+contact:
+  phone: ""
+  email: ""
+  address: ""
+  business_hours: ""
+  form_fields:
+    - "Name"
+    - "Email"
+    - "Message"
+    # Add more fields if needed
+
+social_media:
+  facebook: ""
+  instagram: ""
+  x: ""
+  linkedin: ""
+  youtube: ""
+
+footer:
+  navigation_links: []
+  legal_links:
+    - "Privacy Policy"
+    - "Terms of Service"
+    - "Cookie Policy"
+  copyright_text: ""
+  newsletter_signup: false
+
+pages:
+  - "Home"
+  - "About"
+  - "Services"
+  - "Products"
+  - "Contact"
+  # Add any additional pages here
+
+functionality:
+  authentication: true
+  ecommerce: false
+  booking_system: false
+  database: ""
+  api_integrations: []
+  crud_operations: true
+  search_filtering: true
+  payment_processing: false
+  real_time_features: false
+  form_handling: true
+
+images:
+  hero: []
+  products_services: []
+  features: []
+  testimonials: []
+  other: []
+
+seo:
+  target_keywords: []
+  meta_title_template: ""
+  meta_description_template: ""
+  google_analytics: true
+
+design_notes:
+  style_preferences: ""
+  animations_required: false
+  accessibility_requirements: true
+  mobile_priority: true
+
+additional_notes: |
+  Any special requests, future phases, or important client information goes here.

@@ -1,0 +1,140 @@
+// components/_links.scss
+@use 'sass:map';
+@use './colors' as *;
+@use './utils' as *;
+@use './fonts' as *;
+
+// =============================================
+// 1. CSS CUSTOM PROPERTIES (Light + Dark Mode)
+// =============================================
+
+:root {
+  // Base link styles
+  --link-color: #{colorTheme(primary)};
+  --link-font-weight: 500;
+  --link-text-decoration: none;
+  --link-transition: color 0.2s ease, text-decoration 0.2s ease;
+
+  // Hover
+  --link-hover-color: #{colorTheme(primary-dark)};
+
+  // Active / Focus
+  --link-active-color: #{colorTheme(primary-dark)};
+  --link-focus-outline: 2px solid #{colorTheme(primary-light)};
+  --link-focus-outline-offset: 2px;
+
+  // Visited
+  --link-visited-color: #{colorTheme(purple-600)};
+
+  // Underline variant
+  --link-underline-color: currentColor;
+  --link-underline-hover-thickness: 2px;
+}
+
+[data-theme="dark"] {
+  --link-color: #{colorTheme(primary-light)};
+  --link-hover-color: #{colorTheme(primary)};
+  --link-active-color: #{colorTheme(primary)};
+  --link-visited-color: #{colorTheme(purple-400)};
+}
+
+// =============================================
+// 2. REUSABLE LINK COMPONENT
+// =============================================
+
+.link {
+  color: var(--link-color);
+  font-weight: var(--link-font-weight);
+  text-decoration: var(--link-text-decoration);
+  transition: var(--link-transition);
+  cursor: pointer;
+
+  &:hover {
+    color: var(--link-hover-color);
+  }
+
+  &:active {
+    color: var(--link-active-color);
+  }
+
+  &:focus-visible {
+    outline: var(--link-focus-outline);
+    outline-offset: var(--link-focus-outline-offset);
+  }
+
+  &:visited {
+    color: var(--link-visited-color);
+  }
+
+  // ====================
+  // VARIANTS
+  // ====================
+
+  &--primary {
+
+  }
+
+  &--secondary {
+    color: #{colorTheme(neutral-700)};
+    --link-hover-color: #{colorTheme(neutral-900)};
+
+    [data-theme="dark"] & {
+      color: #{colorTheme(neutral-300)};
+      --link-hover-color: #{colorTheme(neutral-100)};
+    }
+  }
+
+  &--tertiary {
+    color: #{colorTheme(neutral-500)};
+    font-weight: 400;
+    --link-hover-color: #{colorTheme(neutral-700)};
+
+    [data-theme="dark"] & {
+      color: #{colorTheme(neutral-400)};
+      --link-hover-color: #{colorTheme(neutral-200)};
+    }
+  }
+
+  &--underline {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+
+    &:hover {
+      text-decoration-thickness: var(--link-underline-hover-thickness);
+    }
+  }
+
+  &--no-underline {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &--subtle {
+    color: inherit;
+    font-weight: inherit;
+    --link-hover-color: #{colorTheme(primary)};
+
+    [data-theme="dark"] & {
+      --link-hover-color: #{colorTheme(primary-light)};
+    }
+  }
+
+  &--sm { font-size: 0.875rem; }
+  &--lg { font-size: 1.125rem; }
+}
+
+.link--button-like {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: spacing(2) spacing(4);
+  border-radius: var(--btn-border-radius); 
+  border: 1px solid transparent;
+
+  &:hover {
+    border-color: currentColor;
+  }
+}

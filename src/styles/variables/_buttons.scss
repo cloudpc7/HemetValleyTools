@@ -1,0 +1,138 @@
+// components/_buttons.scss
+@use 'sass:map';
+@use '../colors/colors' as *;
+@use '../utilities/utils' as *;
+@use '../fonts/fonts' as *;
+
+// =============================================
+// 1. CSS CUSTOM PROPERTIES (Light + Dark Mode)
+// =============================================
+
+:root {
+  // Base button styles (shared by all variants)
+  --btn-display: flex;
+  --btn-align-items: center;
+  --btn-justify-content: center;
+  --btn-cursor: pointer;
+  --btn-font-weight: 600;
+  --btn-transition: all 0.2s ease;
+  --btn-border-radius: #{spacing(3)};
+
+  // Primary
+  --btn-primary-bg: #{colorTheme(primary)};
+  --btn-primary-color: #{colorTheme(white)};
+  --btn-primary-border: 0;
+
+  // Secondary
+  --btn-secondary-bg: transparent;
+  --btn-secondary-color: #{colorTheme(primary)};
+  --btn-secondary-border: 2px solid #{colorTheme(primary)};
+
+  // Tertiary
+  --btn-tertiary-bg: #{colorTheme(neutral-100)};
+  --btn-tertiary-color: #{colorTheme(neutral-900)};
+  --btn-tertiary-border: 0;
+
+  // States - Hover
+  --btn-hover-primary-bg: #{colorTheme(primary-dark)};
+  --btn-hover-secondary-bg: #{colorTheme(primary)};
+  --btn-hover-secondary-color: #{colorTheme(white)};
+  --btn-hover-tertiary-bg: #{colorTheme(neutral-200)};
+
+  // States - Active
+  --btn-active-scale: scale(0.97);
+
+  // States - Focus
+  --btn-focus-outline: 3px solid #{colorTheme(primary-light)};
+  --btn-focus-outline-offset: 2px;
+
+  // States - Disabled
+  --btn-disabled-bg: #{colorTheme(neutral-300)};
+  --btn-disabled-color: #{colorTheme(neutral-500)};
+  --btn-disabled-cursor: not-allowed;
+  --btn-disabled-border: 2px solid #{colorTheme(neutral-300)};
+}
+
+[data-theme="dark"] {
+  // Dark mode overrides
+  --btn-primary-bg: #{colorTheme(primary-dark)};
+  --btn-secondary-color: #{colorTheme(primary-light)};
+  --btn-secondary-border: 2px solid #{colorTheme(primary-light)};
+  --btn-tertiary-bg: #{colorTheme(neutral-800)};
+  --btn-tertiary-color: #{colorTheme(neutral-100)};
+
+  --btn-hover-primary-bg: #{colorTheme(primary)};
+  --btn-hover-tertiary-bg: #{colorTheme(neutral-700)};
+
+  --btn-disabled-bg: #{colorTheme(neutral-700)};
+  --btn-disabled-color: #{colorTheme(neutral-400)};
+}
+
+// =============================================
+// 2. REUSABLE BUTTON COMPONENT
+// =============================================
+
+.btn {
+  display: var(--btn-display);
+  align-items: var(--btn-align-items);
+  justify-content: var(--btn-justify-content);
+  cursor: var(--btn-cursor);
+  font-weight: var(--btn-font-weight);
+  transition: var(--btn-transition);
+  border-radius: var(--btn-border-radius);
+  padding: spacing(3) spacing(6);
+  border: none; // will be overridden per variant
+
+  // Base hover/active/focus/disabled (will be extended per variant)
+  &:hover { transition: var(--btn-transition); }
+  &:active { transform: var(--btn-active-scale); }
+  &:focus-visible {
+    outline: var(--btn-focus-outline);
+    outline-offset: var(--btn-focus-outline-offset);
+  }
+  &:disabled {
+    background-color: var(--btn-disabled-bg);
+    color: var(--btn-disabled-color);
+    cursor: var(--btn-disabled-cursor);
+    pointer-events: none;
+  }
+
+  // ====================
+  // VARIANTS
+  // ====================
+
+  &--primary {
+    background-color: var(--btn-primary-bg);
+    color: var(--btn-primary-color);
+    border: var(--btn-primary-border);
+
+    &:hover {
+      background-color: var(--btn-hover-primary-bg);
+    }
+  }
+
+  &--secondary {
+    background-color: var(--btn-secondary-bg);
+    color: var(--btn-secondary-color);
+    border: var(--btn-secondary-border);
+
+    &:hover {
+      background-color: var(--btn-hover-secondary-bg);
+      color: var(--btn-hover-secondary-color);
+    }
+  }
+
+  &--tertiary {
+    background-color: var(--btn-tertiary-bg);
+    color: var(--btn-tertiary-color);
+    border: var(--btn-tertiary-border);
+
+    &:hover {
+      background-color: var(--btn-hover-tertiary-bg);
+    }
+  }
+
+  // Optional: Size variants (extra reusability)
+  &--sm { padding: spacing(2) spacing(4); font-size: 0.875rem; }
+  &--lg { padding: spacing(4) spacing(8); font-size: 1.125rem; }
+}

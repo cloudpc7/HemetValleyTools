@@ -1,0 +1,221 @@
+﻿Hemet Valley Tools – Project Documentation
+Project Goal
+Target Audience
+Must-Have Features
+Should-Have (Priority 2) 
+Nice-to-Have (Priority 3)
+Pages & Sections
+Home Page
+Navigation
+Hero Section 
+Hero Content
+Tools for Performance, Power for Production and Mass Construction
+Hemet Valley Tools offers the services and tools needed to get the job done right.
+Rental Button => links to rental page
+Feature
+Professional Grade Tools
+Industrial Tool Card, Landscaping equipment Cards, Saw Blades
+Rental Teaser
+Pro Power, Pro Tools for Pro Construction
+Rental Button
+Product showcase
+Tool Cards, Accessories, Power Tools, Drills, Power Washers, 
+Discover our selection of high-quality power tools from trusted industry leaders, including Milwaukee, Makita, and Honda.
+Company Intro
+Testimonials
+Rated #1 Tool and Supply Shop in the IE
+The best place for tools and equipment is this little shop in Hemet, while the other places are high priced, here you still get quality tools and equipment that are half the price of what you'd get at the other stores and you don't need to spend more than you bargain for. Give it a try and look for yourself. I recommend getting your tools and equipment and materials from the tool and supply store...
+brought my saw from Oceanside to get fixed here. Everything I heard about this place was great...turned out to be true...thanks Guys
+Their Customer Service is courteous. Hemet Valley Tools will be my go-to for tool & equipment rental going forward
+Final CTA Section
+We offer premium power tools, professional repair services, and industrial equipment rentals to support your construction projects.
+Contact Us CTA 
+Footer
+Explore, Social, Legal, Location Copyright
+Rentals Page
+Hero with “Tool Rentals” headline (Page Hero)
+Pro Power, Pro Tools Ready to Rent
+Catalog Filter bar
+Filter by category, price, availability, brand
+Individual Rental Detail View (cards, price, details button)
+How rentals work
+Provide Faqs Section
+Pagination or load more
+Show availability, show scheduling, show what is in stock 
+Booking leads to scheduling
+Create renting form
+Footer
+Products Page
+Navigation
+Hero Section
+Brands we carry Trust Bar
+Filter + Search Bar
+Catalog of products
+Feature best sellers section
+Product Detail Modal
+Purchase, Rent or Repair options
+Final Call To Action Talk to an Expert
+Footer
+Repair Page
+Header/Navigation
+Hero
+Expert Tool & Equipment Repair
+Fast, reliable repairs by trained professionals
+Why choose repair service
+Over 41 years of knowledge and experience
+How it works
+How our repair process works
+Before after gallery
+Real Results
+Get back to work with the tools needed to finish the job.
+Brands we service
+Provide brand names Makita Milwaulkee
+Pricing Estimates
+Repair Request Form
+Fill out the form below and schedule your repair services
+Testimonials
+3 testimonilas
+Final Call to Action
+Ready to Get Your Tools Fixed?
+Book your repair today and experience professional service you can trust
+Footer
+1. The Optimized Scheduling Flow
+Dynamic Hero Section
+Instead of just "Booking," focus on the value proposition.
+Headline: "Reserve Your Gear in Seconds."
+Sub-headline: Select your equipment or service below to see real-time availability at our Hemet location.
+B. Step 1: Service/Tool Category Selector (Move up!)
+Why: Users don't pick a time until they know you have what they need.
+Categories: Rental Equipment, Repair Services, or Supply Pickup.
+Visuals: Use small icons for each category to make it scannable.
+C. Step 2: Resource & Time Selection
+Combine the calendar and time slots into a single interactive module.
+Calendar Picker: Highlight dates with available inventory.
+Time Slot Grid: Clear buttons (e.g., 8:00 AM, 1:00 PM) rather than a dropdown menu.
+Note: Add a "Duration" toggle if it’s a rental (4-hour, Daily, Weekly).
+D. Step 3: Minimalist Customer Form
+Keep friction low. Only ask for what is legally or logistically required.
+Fields: Name, Phone (for SMS reminders), Email.
+Project Note: A text box for "What are you working on?" or "Model number for repair."
+E. Step 4: Summary & Instant Confirmation
+Review Pane: A sidebar showing "Tool + Date + Time + Price" so they don't have to hit 'back'.
+Primary CTA: "Confirm Reservation."
+1. Hero: The "Local Legacy" Header
+Instead of a generic "About Us," use a high-quality photo of your storefront or your team in front of the fleet.
+Headline: Serving the Valley Since [Year].
+Sub-headline: Professional grade tools, local expertise, and a commitment to keeping Hemet building.
+2. The "Who We Are" (About Us & Mission)
+Combine your content and mission into a narrative. People don't want to read a dry mission statement; they want to know your philosophy.
+Focus: Mention that you serve both DIYers and heavy-duty contractors.
+Value Prop: Highlight that you aren't just a big-box store—you offer technical advice and tailored supply solutions.
+3. Our History: The Timeline
+Instead of a wall of text, use a visual timeline.
+Show your growth from a small shop to a valley staple.
+Include a "Founding" photo if you have one. It builds incredible trust with the local community.
+4. Meet the Experts (Team)
+In the tool business, the "Counter Guy" is the hero.
+Show photos of your key staff.
+Pro Tip: List their specialties (e.g., "John - 15 years in Small Engine Repair"). It proves you have the knowledge to help customers choose the right tool.
+5. Community & Values
+Why choose you over a national chain?
+Mention local sponsorships, your commitment to safety, or your "no-nonsense" approach to service.
+6. Interactive Location & Map
+Don't just put a button; embed the map directly so it’s easy to get directions on mobile.
+Details: Include your yard hours (which are often different from office hours) and a "Loading Zone" tip for people picking up heavy equipment.
+7. The Final CTA (Call to Action)
+Give them two distinct paths:
+Path A: "View Our Inventory" (Link to products/rentals).
+Path B: "Ask a Specialist" (Link to the contact form).
+1. Hero: The "Efficiency" Header
+Headline: Priority Service for the Pros.
+Sub-headline: Wholesale pricing, dedicated account management, and job-site delivery to keep your projects on schedule.
+Primary CTA: "Open a Commercial Account."
+Secondary CTA: "View Bulk Catalog."
+2. The "B2B Advantage" (Value Grid)
+Use a 3 or 4-column grid with icons to show exactly what you offer businesses that a retail customer doesn't get:
+Commercial Credit: Net-30 terms and easy invoicing.
+Priority Delivery: On-site drop-off to your yard or job site.
+Volume Discounts: Tiered pricing for bulk supply orders.
+Dedicated Reps: A single point of contact who knows your business.
+3. Equipment Fleet & Inventory Depth
+Pros need to know you have enough of what they need.
+Inventory Highlight: List your heavy-duty brands (e.g., Milwaukee, Bosch, Husqvarna).
+Availability Guarantee: Mention your "In-Stock" commitment for common consumables (blades, bits, safety gear).
+4. Specialized Services
+Does Hemet Valley Tool & Supply offer things "regular" shops don't?
+Tool Repair & Calibration: Keeping their fleet OSHA-compliant.
+Safety Training: On-site demos or certification support.
+Custom Sourcing: "If we don't have it, we’ll find it."
+5. The "Commercial Account" Portal
+A clear section explaining the onboarding process.
+Step 1: Apply online or in-store.
+Step 2: Rapid credit approval.
+Step 3: Start ordering via phone, email, or portal.
+6. Testimonials / "Trusted By"
+Social Proof: Logos of local construction firms, HVAC companies, or public works departments you already serve.
+Quote: A short testimonial from a local foreman about your reliability.
+7. Direct B2B Contact Form
+Keep this separate from your general contact form.
+Fields: Company Name, Trade/Industry, Estimated Monthly Spend (optional), and a "Request a Quote" upload button for blueprints or supply lists.
+A. Hero Section
+Headline: Expert Support for Every Stage of the Job.
+Sub-headline: From renting the heavy hitters to fixing your favorite saw, we keep your crew running.
+B. The Three Pillars (Service Cards)
+Instead of a giant list, use three large, high-quality "Cards" that break down your core offerings:
+Equipment Rentals
+What it is: Daily, weekly, or monthly rentals of pro-grade machinery.
+Highlight: Mention that all rentals are serviced and safety-checked before they leave the yard.
+CTA: "View Rental Catalog."
+Certified Repair Shop
+What it is: In-house maintenance for power tools and small engines.
+Highlight: We handle warranty repairs and general tune-ups to extend the life of your gear.
+CTA: "Book a Repair."
+Tool Sales & Custom Supply
+What it is: Expert-led sales of power tools, blades, bits, and safety equipment.
+Highlight: We don’t just sell boxes; we match the tool to the task.
+CTA: "Browse Inventory."
+C. The "Why Us" Section (Hidden Services)
+You actually provide more "service" than you realize. Add a section for:
+Technical Consultations: "Not sure which bit you need for that granite slab? Our experts will walk you through it."
+Safety Briefings: Brief demos on how to operate any rental equipment safely.
+Blade Sharpening: (If you offer it, it’s a huge foot-traffic driver!)
+D. Transparent Pricing/Process
+Rentals: Mention "Flexible Rates" (4-hour, Daily, Weekly).
+Repairs: Mention your "Diagnostic Fee" or "Fast Turnaround" promise.
+Sales: Mention "Bulk Pricing" for pros.
+E. Final CTA
+Primary: "Schedule a Service."
+Secondary: "Call for a Quick Quote."
+
+Footer
+Site Map
+Contact 
+Explore
+Services
+Legal
+CopyRight
+Navigation
+Home
+Rentals
+Products
+Repair
+Scheduling
+Services
+B2B
+Company 
+Contact
+Navigation Bar Content
+Icons
+Home
+House with Dollar
+Box or Shopping Bag
+ScrewDriver
+Clock
+Wrench + Gear
+Building
+Envelope or chat button
+Josh bois 
+
+
+
+

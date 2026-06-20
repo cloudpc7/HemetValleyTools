@@ -1,0 +1,50 @@
+npm install create vite@latest "name" --template react
+npm install \
+  @fortawesome/fontawesome-svg-core@latest \
+  @fortawesome/free-brands-svg-icons@latest \
+  @fortawesome/free-solid-svg-icons@latest \
+  @fortawesome/react-fontawesome@latest \
+  @reduxjs/toolkit@latest \
+  bootstrap@latest \
+  lucide-react@latest \
+  react@latest \
+  react-bootstrap@latest \
+  react-dom@latest \
+  react-redux@latest \
+  react-router-dom@latest \
+  react-spring@latest \
+  react-svg@latest \
+  redux-persist@latest \
+  --save
+
+  npm install \
+  @eslint/js@latest \
+  @types/react@latest \
+  @types/react-dom@latest \
+  @vitejs/plugin-react@latest \
+  eslint-plugin-react-hooks@latest \
+  eslint-plugin-react-refresh@latest \
+  globals@latest \
+  sass-embedded@latest \
+  vite@latest \
+  --save-dev
+
+npm install --save-dev jest babel-jest @babel/preset-env @babel/preset-react react-test-renderer
+
+{
+  "dependencies": {
+    "react": "<current-version>",
+    "react-dom": "<current-version>"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "<current-version>",
+    "@babel/preset-react": "<current-version>",
+    "babel-jest": "<current-version>",
+    "jest": "<current-version>",
+    "react-test-renderer": "<current-version>"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
+

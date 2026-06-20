@@ -1,0 +1,47 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "database": "hemetvalleytools"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "functions": {
+    "source": "functions",
+    "codebase": "default",
+    "ignore": [
+      "node_modules",
+      ".git"
+    ]
+  },
+  "hosting": {
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "emulators": {
+    "auth": {
+      "port": 9097
+    },
+    "firestore": {
+      "port": 8082
+    },
+    "storage": {
+      "port": 9197
+    },
+    "ui": {
+      "enabled": true,
+      "port": 4002
+    },
+    "singleProjectMode": true
+  }
+}

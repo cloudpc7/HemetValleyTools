@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&family=Oswald:wght@400;600;700&family=Inter:wght@300;400;600;700&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* CSS VARIABLE THEME SYSTEM */
+.theme-dark {
+  --bg-main: #0A0A0A;
+  --bg-nav: #0F0F0F;
+  --bg-card: #111111;
+  --bg-inner: #181818;
+  --border-primary: #27272a;
+  --border-secondary: #18181b;
+  --text-main: #f4f4f5;
+  --text-muted: #71717a;
+  --text-muted-light: #a1a1aa;
+  --grid-dot: rgba(255, 255, 255, 0.08);
+  --hero-gradient: linear-gradient(to bottom, #0F0F0F, #050505);
+  --pillars-gradient: linear-gradient(to bottom, #050505, #0A0A0A);
+  --scheduler-gradient: linear-gradient(to bottom, #0A0A0A, #0F0F0F);
+  --cta-gradient: linear-gradient(to right, #0F0F0F, #020202, #0F0F0F);
+  
+  /* Industrial Amber Accents */
+  --accent-primary: #F59E0B;
+  --accent-secondary: rgba(245, 158, 11, 0.3);
+  --accent-hover: #D97706;
+  --accent-bg-glow: rgba(245, 158, 11, 0.08);
+  --glow-color: rgba(245, 158, 11, 0.15);
+
+  background-color: var(--bg-main);
+  color: var(--text-main);
+}
+
+.theme-light {
+  --bg-main: #FFFFFF;
+  --bg-nav: #FAFAFA;
+  --bg-card: #F4F4F5;
+  --bg-inner: #E4E4E7;
+  --border-primary: #E4E4E7;
+  --border-secondary: #D4D4D8;
+  --text-main: #09090B;
+  --text-muted: #71717a;
+  --text-muted-light: #3f3f46;
+  --grid-dot: rgba(0, 0, 0, 0.06);
+  --hero-gradient: linear-gradient(to bottom, #FAFAFA, #F4F4F5);
+  --pillars-gradient: linear-gradient(to bottom, #FAFAFA, #FFFFFF);
+  --scheduler-gradient: linear-gradient(to bottom, #FFFFFF, #FAFAFA);
+  --cta-gradient: linear-gradient(to right, #FAFAFA, #F4F4F5, #FAFAFA);
+  
+  /* Industrial Amber Accents (Slightly deeper for optimal contrast on white background) */
+  --accent-primary: #D97706;
+  --accent-secondary: rgba(217, 119, 6, 0.3);
+  --accent-hover: #B45309;
+  --accent-bg-glow: rgba(217, 119, 6, 0.06);
+  --glow-color: rgba(217, 119, 6, 0.08);
+
+  background-color: var(--bg-main);
+  color: var(--text-main);
+}
+
+/* Pure Global Accent Selection */
+::selection {
+  background-color: var(--accent-primary) !important;
+  color: #000000 !important;
+}
+
+/* Background utility overrides */
+.theme-dark .bg-\[\#0A0A0A\] { background-color: var(--bg-main) !important; }
+.theme-light .bg-\[\#0A0A0A\] { background-color: var(--bg-main) !important; }
+.theme-dark .bg-\[\#070707\] { background-color: var(--bg-main) !important; }
+.theme-light .bg-\[\#070707\] { background-color: var(--bg-main) !important; }
+.theme-dark .bg-\[\#0F0F0F\] { background-color: var(--bg-nav) !important; }
+.theme-light .bg-\[\#0F0F0F\] { background-color: var(--bg-nav) !important; }
+.theme-dark .bg-\[\#111111\] { background-color: var(--bg-card) !important; }
+.theme-light .bg-\[\#111111\] { background-color: var(--bg-card) !important; }
+.theme-dark .bg-\[\#141414\] { background-color: var(--bg-card) !important; }
+.theme-light .bg-\[\#141414\] { background-color: var(--bg-card) !important; }
+.theme-dark .bg-\[\#181818\] { background-color: var(--bg-inner) !important; }
+.theme-light .bg-\[\#181818\] { background-color: var(--bg-inner) !important; }
+.theme-dark .bg-\[\#1A1A1A\] { background-color: var(--bg-inner) !important; }
+.theme-light .bg-\[\#1A1A1A\] { background-color: var(--bg-inner) !important; }
+.theme-dark .bg-\[\#161616\] { background-color: var(--bg-inner) !important; }
+.theme-light .bg-\[\#161616\] { background-color: var(--bg-inner) !important; }
+.theme-dark .bg-\[\#1C1C1C\] { background-color: var(--bg-inner) !important; }
+.theme-light .bg-\[\#1C1C1C\] { background-color: var(--bg-inner) !important; }
+.theme-dark .bg-\[\#050505\] { background-color: var(--bg-nav) !important; }
+.theme-light .bg-\[\#050505\] { background-color: var(--bg-nav) !important; }
+
+/* Border utility overrides */
+.border-zinc-800 { border-color: var(--border-primary) !important; }
+.border-zinc-850 { border-color: var(--border-primary) !important; }
+.border-zinc-900 { border-color: var(--border-secondary) !important; }
+.border-zinc-700 { border-color: var(--border-secondary) !important; }
+
+/* General layout overrides inside Light Mode */
+.theme-light .text-white { color: #09090B !important; }
+.theme-light .text-zinc-100 { color: #09090B !important; }
+.theme-light .text-zinc-300 { color: #27272A !important; }
+.theme-light .text-zinc-400 { color: #3F3F46 !important; }
+.theme-light .text-zinc-500 { color: #71717A !important; }
+
+/* Absolute Amber-to-Monochrome Redirect mappings */
+.text-amber-500 { color: var(--accent-primary) !important; }
+.bg-amber-500 { background-color: var(--accent-primary) !important; }
+.border-amber-500 { border-color: var(--accent-primary) !important; }
+
+/* Primary action button text contrast overrides */
+.bg-amber-500.text-black { color: #000000 !important; }
+.group-hover\:text-black { color: #000000 !important; }
+
+/* Opacity override styling */
+.bg-amber-500\/5 { background-color: var(--accent-bg-glow) !important; }
+.bg-amber-500\/10 { background-color: var(--accent-bg-glow) !important; }
+.border-amber-500\/20 { border-color: var(--accent-secondary) !important; }
+.border-amber-500\/30 { border-color: var(--accent-secondary) !important; }
+.text-amber-500\/90 { color: var(--accent-primary) !important; }
+
+/* Hover behaviors & Button Contrast for Light Mode */
+.theme-light .hover\:text-white:hover { color: #09090B !important; }
+.theme-light .hover\:bg-white:hover { background-color: #09090B !important; color: #FFFFFF !important; }
+.theme-light .hover\:bg-zinc-900:hover { background-color: #E4E4E7 !important; }
+.theme-light .hover\:bg-zinc-800:hover { background-color: #D4D4D8 !important; }
+
+/* Sane contrasts for dark utility backgrounds in Light Mode */
+.theme-light .bg-zinc-950,
+.theme-light .bg-zinc-900,
+.theme-light .bg-zinc-800 {
+  background-color: var(--bg-card) !important;
+  color: var(--text-main) !important;
+  border-color: var(--border-primary) !important;
+}
+.theme-light .bg-zinc-950:hover,
+.theme-light .bg-zinc-900:hover {
+  background-color: var(--bg-inner) !important;
+  color: var(--text-main) !important;
+}
+.theme-light .bg-zinc-950 *,
+.theme-light .bg-zinc-900 *,
+.theme-light .bg-zinc-800 * {
+  color: var(--text-main) !important;
+}
+
+/* Industrial Amber button and badge hover triggers */
+.hover\:bg-amber-500:hover { background-color: var(--accent-hover) !important; color: #000000 !important; }
+.hover\:text-black:hover { color: #000000 !important; }
+.group-hover\:bg-amber-500:hover, .group:hover .group-hover\:bg-amber-500 {
+  background-color: var(--accent-primary) !important;
+  color: #000000 !important;
+}
+
+/* Dynamic background gradients overrides */
+.bg-gradient-to-b.from-\[\#0F0F0F\].to-\[\#050505\] { background-image: var(--hero-gradient) !important; }
+.bg-gradient-to-b.from-\[\#050505\].to-\[\#0A0A0A\] { background-image: var(--pillars-gradient) !important; }
+.bg-gradient-to-b.from-\[\#0A0A0A\].to-\[\#0F0F0F\] { background-image: var(--scheduler-gradient) !important; }
+.bg-gradient-to-r.from-\[\#0F0F0F\].via-zinc-950.to-\[\#0F0F0F\] { background-image: var(--cta-gradient) !important; }
+
+.font-header {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.05em;
+}
+.font-sub {
+  font-family: 'Montserrat', sans-serif;
+}
+.font-sans {
+  font-family: 'Inter', sans-serif;
+}
+.glow-orange {
+  box-shadow: 0 0 20px var(--accent-bg-glow);
+}
+.glow-white {
+  box-shadow: 0 0 15px var(--glow-color);
+}
+.industrial-border {
+  border-image: linear-gradient(to right, var(--border-primary), var(--border-secondary), var(--border-primary)) 1;
+}
