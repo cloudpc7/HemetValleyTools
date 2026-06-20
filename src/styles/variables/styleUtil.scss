@@ -1,0 +1,141 @@
+@use "./colors.scss" as colors;
+@use "./fonts.scss" as fonts;
+
+$global-gutter-width: (
+  default: 0,
+  xs: 0.5rem,
+  sm: 1rem,
+  md: 1.5rem,
+  lg: 2rem,
+  xl: 3rem
+);
+
+@function global-gutter($breakpoint) {
+  @return map-get($global-gutter-width, $breakpoint);
+}
+
+$display-settings: (
+  mobile: (
+    display: flex,
+    flex-direction: column,
+    align-items: center,
+    justify-content: center
+  ),
+  desktop: (
+    display: grid,
+    grid-template-columns: 1fr,
+    grid-template-rows: 1fr
+  )
+);
+
+@function display-props($breakpoint) {
+  @return map-get($display-settings, $breakpoint);
+}
+
+@mixin button-base($font, $bg-color, $color, $border, $radius, $border-color, $padding) {
+  background-color: $bg-color;
+  color: $color;
+  @include fonts.font-theme($font);
+  border: $border;
+  border-radius: $radius;
+  border-color: $border-color;
+  padding: $padding;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $bg-color;
+    color: $color;
+  }
+
+  &:active {
+  }
+
+  &:focus {
+  }
+}
+
+@mixin button-style-one {
+  border: 1px solid colors.colorTheme(app-black);
+  font-weight: 500;
+  background-color: transparent;
+  color: colors.colorTheme(app-black);
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 0.5rem;
+  max-width: 12rem;
+  &:hover {
+    background-color: colors.colorTheme(app-black);
+    color: colors.colorTheme(app-white);
+  }
+}
+
+
+@mixin button-style-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid colors.colorTheme(app-white);
+  background-color: colors.colorTheme(app-black);
+  color: colors.colorTheme(app-white);
+  padding: 0.5rem 2.25rem;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+  max-width: 10rem;
+  &:hover {
+    background-color: colors.colorTheme(app-white);
+    color: colors.colorTheme(app-black);
+  }
+}
+
+@mixin font-nav-links {
+  border-radius: 0.5rem;
+  max-width: 5rem;
+  @media (min-width: 62rem) {
+    display: flex;
+    justify-content: center;
+  }
+  &:hover {
+    color: #4a4a4a;
+  }
+}
+
+@mixin nav-links {
+  @include fonts.font-theme(navlinks);
+  color: colors.colorTheme(app-white);
+  padding: 0;
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    color: #4a4a4a;
+    text-decoration-color: #ffffff;
+  }
+}
+
+@mixin search {
+  max-width: 10rem;
+  @include fonts.font-theme(navlinks);
+  border: none;
+  border-bottom: 1px solid colors.colorTheme(app-white);
+  border-radius: 0;
+  color: colors.colorTheme(app-white);
+  &::placeholder {
+    color: colors.colorTheme(app-white);
+    opacity: 65%;
+  }
+
+  &:focus, &:active {
+    border: none;
+    border-bottom: 1px solid colors.colorTheme(app-white); 
+    outline: none;
+    box-shadow: none; 
+  }
+}
+
+@mixin rental-repair {
+  background-color: #000000;
+  font-family: "Tenor Sans", sans;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
